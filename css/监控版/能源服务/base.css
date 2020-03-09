@@ -1,0 +1,162 @@
+@font-face {
+    font-family: MorganBig-LightItalic;
+    src: url('../../../font_family/MorganBig-LightItalic\(1\).otf');
+    /* src: local('fontname Regular'), local('fontname'), url('fontname.woff') format('woff'), url('fontname.ttf') format('truetype'), url('fontname.svg#fontname') format('svg'); */
+}
+
+@font-face {
+    font-family: MorganBig-MediumItalic;
+    src: url('../../../font_family/MorganBig-MediumItalic\(1\).otf');
+    /* src: local('fontname Regular'), local('fontname'), url('fontname.woff') format('woff'), url('fontname.ttf') format('truetype'), url('fontname.svg#fontname') format('svg'); */
+}
+
+@font-face {
+    font-family: MorganBig-Regular-M;
+    src: url('../../../font_family/MorganBig-Regular\(1\).otf');
+    /* src: local('fontname Regular'), local('fontname'), url('fontname.woff') format('woff'), url('fontname.ttf') format('truetype'), url('fontname.svg#fontname') format('svg'); */
+}
+
+@font-face {
+    font-family: MorganBig-Regular;
+    src: url('../../../font_family/庞门正道标题体2.0增强版.ttf');
+    /* src: local('fontname Regular'), local('fontname'), url('fontname.woff') format('woff'), url('fontname.ttf') format('truetype'), url('fontname.svg#fontname') format('svg'); */
+}
+
+body {
+    /* background-image: url("../Image/bgimg1.jpg");   */
+    background-color: rgba(135, 205, 255, 0);
+    overflow: scroll;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    font-family: '黑体';
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+
+/* 最外层容器 */
+
+#myTabs {
+    width: 1588px;
+    height: 900px;
+    /* background-color: #060D1D; */
+}
+
+.nav-tabs {
+    border: 1px solid transparent;
+}
+
+
+/* 点缀图片 */
+
+
+/* #tag {
+        background-color: #00FDAD;
+         background-image: url("../Image/bgimg1.jpg"); 
+        width: 20px;
+        height: 68px;
+        border-radius: 0px;
+        top: 10px;
+    }
+     */
+
+
+/* 一级标题 */
+
+.nav>li>a {
+    font-size: 72px;
+    /* font-weight: bold; */
+    vertical-align: top;
+    color: #ffffff;
+    padding: 0px;
+    margin-left: 50px;
+    /* margin-top: -5px; */
+    top: 50px;
+}
+
+
+/* 一级标题鼠标移入 */
+
+.nav>li:hover,
+.nav>li>a:hover {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+
+/* 一级标题点击 */
+
+.nav-tabs>li.active>a,
+.nav-tabs>li.active>a:focus,
+.nav-tabs>li.active>a:hover {
+    background-color: transparent;
+    border-color: transparent;
+    font-size: 72px;
+    color: #ffffff;
+    top: 37px;
+}
+
+#tag {
+    /* background-color: rgba(255,0,0,0); */
+    /* background-image: url("../Image/bgimg1.jpg"); */
+    width: 0px;
+    height: 35px;
+    border-radius: 0px;
+    margin-top: 3px;
+    color: white;
+    font-size: 50px;
+    line-height: 35px;
+    top: 60px;
+}
+
+
+/* 二级标题容器 */
+
+#total {
+    text-align: center;
+    vertical-align: center;
+    /* padding-top: 5px; */
+    height: 110px;
+    background-color: blue;
+}
+
+
+/* 二级标题 */
+
+.erji_title>a {
+    color: rgba(135, 205, 255, 0);
+    display: inline-block;
+    width: 396px;
+    height: 110px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    font-size: 0px;
+    text-decoration: none;
+}
+
+
+/* 二级标题鼠标移入 */
+
+
+/* .erji_title>a:hover {
+    color: rgba(255, 255, 255, 0);
+} */
+
+
+/* 二级标题鼠标点击 */
+
+
+/* .erji_title>a:focus {
+    color: rgba(255, 0, 0, 0);
+} */
+
+
+/* 图表容器 */
+
+#show_charts {
+    width: 1588px;
+    height: 700px;
+    /* background-color: red; */
+}

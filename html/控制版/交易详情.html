@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <title>导航</title>
+</head>
+<link rel="stylesheet" type="text/css" href="../../css/控制版/交易详情.css">
+<link rel="stylesheet" href="../../css/控制版/style.css">
+
+<script src="../../node_modules/jquery/dist/jquery.min.js"></script>
+<script src="../../node_modules/jquery/dist/selectFx.js"></script>
+<script src="../../node_modules/jquery/dist/classie.js"></script>
+<script src="../../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="../../js/控制版/交易详情.js"></script>
+
+<body>
+    <div class="panel top">
+        <span class="big_text">商品列表</span>
+        <div class="main clearfix">
+            <div class="left" id='left1'>
+                <span class="normal_text">起始时间:</span>
+                <input type="date" id='startTime1' class="box date" placeholder="起始时间" onchange="this.removeAttribute('placeholder')">
+                <span class="text pos normal_text">至</span>
+                <input type="date" id='endTime1' class="box date" placeholder="结束时间" onchange="this.removeAttribute('placeholder')">
+            </div>
+            <ul class="left">
+                <li class="inline">
+                    <div class="circle inline-block"></div>
+                    <span class="pad_left_5 small_text pad_right_50">审核中</span>
+                </li>
+                <li class="inline">
+                    <div class="circle inline-block"></div>
+                    <span class="pad_left_5 small_text pad_right_50">已上架</span>
+                </li>
+                <li class="inline">
+                    <div class="circle inline-block"></div>
+                    <span class="pad_left_5 small_text pad_right_50">未通过</span>
+                </li>
+                <li class="inline">
+                    <div class="circle inline-block selected_circle"></div>
+                    <span class="pad_left_5 small_text pad_right_50 selected_text">已下架</span>
+                </li>
+            </ul>
+            <div class="right">
+                <input class="selected_text btn searchBtn" type="button" value="查询" />
+                <input class="selected_text btn resetBtn" type="button" value="重置" />
+            </div>
+        </div>
+        
+    </div>
+    <div class="panel bottom">
+        <span class="big_text">需求列表</span>
+        <div class="main clearfix">
+            <div class="left" id='left1'>
+                <span class="normal_text">起始时间:</span>
+                <input type="date" id='startTime2' class="box date" placeholder="起始时间" onchange="this.removeAttribute('placeholder')">
+                <span class="text pos normal_text">至</span>
+                <input type="date" id='endTime2' class="box date" placeholder="结束时间" onchange="this.removeAttribute('placeholder')">
+            </div>
+            <ul class="left">
+                <li class="inline">
+                    <div class="circle inline-block"></div>
+                    <span class="pad_left_5 small_text pad_right_50">待付款</span>
+                </li>
+                <li class="inline">
+                    <div class="circle inline-block"></div>
+                    <span class="pad_left_5 small_text pad_right_50">审核中</span>
+                </li>
+                <li class="inline">
+                    <div class="circle inline-block"></div>
+                    <span class="pad_left_5 small_text pad_right_50">已发布</span>
+                </li>
+                <li class="inline">
+                    <div class="circle inline-block"></div>
+                    <span class="pad_left_5 small_text pad_right_50">发起合同</span>
+                </li>
+                <li class="inline">
+                    <div class="circle inline-block"></div>
+                    <span class="pad_left_5 small_text pad_right_50">签订合同</span>
+                </li>
+                <li class="inline">
+                    <div class="circle inline-block selected_circle"></div>
+                    <span class="pad_left_5 small_text pad_right_50 selected_text">已评价</span>
+                </li>
+            </ul>
+            <div class="right">
+                <input class="selected_text btn searchBtn" type="button" value="查询" />
+                <input class="selected_text btn resetBtn" type="button" value="重置" />
+            </div>
+        </div>
+        
+    </div>
+</body>
+
+</html>

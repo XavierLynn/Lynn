@@ -1,0 +1,77 @@
+#myTabs {
+    width: 1680px;
+    height: 2070px;
+    color: white;
+    
+    /* background-color: black; */
+    display: block;
+    background-image: url("../../../../Image/能源交易/合同边框.png");
+    background-size: 100% 100%;
+}
+
+.tdLeft{
+    width: 874px;
+    height: 206px;
+}
+
+.tdRight{
+    width: 806px;
+    text-align: left;
+}
+
+.title {
+    font-size: 72px;
+    text-align: center;
+    padding-top: 74px;
+    padding-bottom: 78px;
+}
+
+.img {
+    text-align: center;
+}
+
+#img{
+    max-width: 1200px;
+    max-height: 40px;
+    margin: 40px;
+}
+
+.content{
+    font-size: 50px;
+    padding-left: 132px;
+}
+
+.contentBel{
+    font-size: 60px;
+    padding-left: 132px;
+    padding-top: 20px;
+}
+
+.dataNor{
+    font-size: 44px;
+    color: #d2f6fe;
+    padding-left: 132px;
+}
+
+.dataNorB{
+    font-size: 44px;
+    color: #d2f6fe;
+    padding-left: 132px;
+    padding-top: 40px;
+}
+
+.dataSpe{
+    font-size: 44px;
+    color: #fca96f;
+    padding-left: 132px;
+}
+
+.SpnLine {
+    display: inline-block;
+    height: 10px;
+    width: 80%;
+    margin: 0px;
+    margin-left: 150px;
+    margin-right: 150px;
+    background: -webkit-linear-gradient(right, #1F3954, #7BABD1, #A9C7CF, #7BABD1, #1F3954);
+}

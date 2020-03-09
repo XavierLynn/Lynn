@@ -1,0 +1,77 @@
+body {
+    /* background-color: #FF0D1D */
+
+}
+
+.contains{
+    /* background-color: black; */
+    width: 2500px;
+    height: 1400px;
+    position: absolute;
+}
+.tab{
+    position: inherit;
+    margin-top: 70px;
+    margin-left: -20px;
+    z-index: 1;
+}
+img{
+    width: 80px;
+    height: 80px;
+}
+#myTabs {
+    width: 2400px;
+    height: 1300px;
+    margin:50px;
+    font-family: Microsoft Yahei;
+    display: block;
+    /* border: 10px solid blue; */
+    /* background-color: red; */
+}
+
+
+
+.title {
+    font-size: 72px;
+    color: white;
+        
+}
+
+.content {
+    font-size: 50px;
+    color: #d2f6fe;
+}
+.erjiTitle {
+    height: 120px;
+    vertical-align: bottom;
+    font-size: 60px;
+    color:white;
+        
+}
+.erjiTitle1
+{
+    height: 130px;
+    vertical-align: bottom;
+    font-size: 60px;
+    color: white;
+        
+}
+.borderTitle {
+    /* height: 130px; */
+    vertical-align: middle;
+    color: white;
+        
+    font-size: 60px;
+}
+
+.photo{
+    z-index: 1;
+    display: inline-block;
+    position: absolute;
+    right: 246px; 
+    bottom: 76px;
+    background: #ffffff;
+    opacity: 0.2;
+    height: 1144px;
+    width: 1016px;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <title>折线图</title>
+</head>
+<link rel="stylesheet" type="text/css" href="../../../../node_modules/bootstrap/dist/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="../../../../css/监控版/base.css">
+<link rel="stylesheet" type="text/css" href="../../../../css/监控版/能源分析/客户特征分析/客户特征分析地图.css">
+
+<script src="../../../../node_modules/jquery/dist/jquery.min.js"></script>
+<script src="../../../../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="../../../../node_modules/echarts/dist/echarts.min.js"></script>
+
+<body>
+    <div id="myTabs">
+        <!-- <svg class="lds-message" width="80px" height="80px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid">
+                <g transform="translate(20 50)">
+                    <circle cx="0" cy="0" r="7" fill="#e15b64" transform="scale(0.99275 0.99275)">
+                        <animateTransform attributeName="transform" type="scale" begin="-0.375s" calcMode="spline" keySplines="0.3 0 0.7 1;0.3 0 0.7 1" values="0;1;0" keyTimes="0;0.5;1" dur="1s" repeatCount="indefinite"></animateTransform>
+                    </circle>
+                </g>
+                <g transform="translate(40 50)">
+                    <circle cx="0" cy="0" r="7" fill="#f47e60" transform="scale(0.773605 0.773605)">
+                        <animateTransform attributeName="transform" type="scale" begin="-0.25s" calcMode="spline" keySplines="0.3 0 0.7 1;0.3 0 0.7 1" values="0;1;0" keyTimes="0;0.5;1" dur="1s" repeatCount="indefinite"></animateTransform>
+                    </circle>
+                </g>
+                <g transform="translate(60 50)">
+                    <circle cx="0" cy="0" r="7" fill="#f8b26a" transform="scale(0.42525 0.42525)">
+                        <animateTransform attributeName="transform" type="scale" begin="-0.125s" calcMode="spline" keySplines="0.3 0 0.7 1;0.3 0 0.7 1" values="0;1;0" keyTimes="0;0.5;1" dur="1s" repeatCount="indefinite"></animateTransform>
+                    </circle>
+                </g>
+                <g transform="translate(80 50)">
+                    <circle cx="0" cy="0" r="7" fill="#abbd81" transform="scale(0.113418 0.113418)">
+                        <animateTransform attributeName="transform" type="scale" begin="0s" calcMode="spline" keySplines="0.3 0 0.7 1;0.3 0 0.7 1" values="0;1;0" keyTimes="0;0.5;1" dur="1s" repeatCount="indefinite"></animateTransform>
+                    </circle>
+                </g>
+            </svg> -->
+        <!-- <div id="bqdyph">
+            <iframe id="iframe" src="标签调用排行.html" style="border:0px solid red" width="100%" height="100%" margin="0px" padding="0px" scrolling="false"></iframe>
+        </div> -->
+        <div id="show_charts">
+            <div id="navMap">
+            </div>
+            <!-- <button id="原国家高新区" class='regionName'><label class='column1'>○ 原国家高新区</label><label class='cloumnNum'>537</label></button>
+            <button id="孙桥科创中心" class='regionName'><label class='column1'>○ 孙桥科创中心</label><label class='cloumnNum'>537</label></button>
+            <button id="张江南区" class='regionName'><label class='cloumnNum'>537</label><label class='column1'>张江南区 ○</label></button>
+            <button id="规划保留用地" class='regionName'><label class='column1'>○ 规划保留用地</label><label class='cloumnNum'>537</label></button>
+            <button id="康桥工业园北区" class='regionName'><label class='cloumnNum'>537</label><label class='column1'>康桥工业园北区 ○</label></button>
+            <button id="上海国际医学园区" class='regionName'><label class='cloumnNum'>537</label><label class='column1'>上海国际医学园区 ○</label></button>
+            <button id="康桥工业园南区" class='regionName'><label class='cloumnNum'>537</label><label class='column1'>康桥工业园南区 ○</label></button> -->
+                 
+        </div>
+        <div id="shanghaiMap"></div>
+        <div id="zhangjiangMap"></div>
+        <!-- <div id="bqqylb">
+            <iframe id="iframe" src="标签企业列表.html" style="border:0px solid red" width="100%" height="100%" margin="0px" padding="0px" scrolling="false"></iframe>
+        </div> -->
+    </div>
+    <script src="../../../../js/base.js"></script>
+    <script src="../../../../js/ShowRealData.js"></script>
+    <script src="../../../../js/监控版/能源分析/客户特征分析/客户特征分析地图.js"></script>
+</body>
+
+</html>

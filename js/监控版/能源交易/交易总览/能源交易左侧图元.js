@@ -1,0 +1,312 @@
+globalFontSize = 40;
+
+var interval;
+
+var showRealData = JKB["能源交易"]["交易总览"]["能源交易左侧图元"];
+
+var table_data = {
+    "data": [{
+        "title": "削峰填谷事件概览",
+        "table": [
+        {"title": '本月执行事件',  "xLabel": "", "yLabel": "25" },
+        {"title": '削峰负荷总量', "xLabel": "", "yLabel": "10"}, 
+        {"title": '填谷负荷总量', "xLabel": "", "yLabel": "30"},
+        {"title": '本月总激励金额', "xLabel": "万", "yLabel": "50"}
+    ]
+    }, ]
+};
+
+$(function() {
+    Flush();
+    $.ajax({
+        url: "http://localhost:2277/监控版/NYJY.asmx/GetEnteEnergyConsumptionMonth",
+        type: "POST",
+        async: true,
+        data: "regionID=zj&topCount=3&startDate=2019-12&endDate=2020-01",
+        error: function() {
+            Flush();
+        },
+       success: function(data) {
+            if(showRealData){
+                table_data = JSON.parse(data);
+                Flush();
+            }  
+        }
+    });
+    setInterval(function () { $('body').css('background-color', 'rgba(0,0,0,0.00)') }, 1000);
+   
+});
+
+function Flush(){
+
+    yiji_title.length = 0;
+    $('.nav').empty()
+   
+    for (var i = 0; i < table_data['data'].length; i++) {
+        yiji_title.push(table_data['data'][i]['title']);
+    }
+
+    $('.nav').append("<li id='tag'>◀</li>");
+    for (var i = 0; i < yiji_title.length; i++) {
+        const id = "title" + i;
+        const href = "#title" + i;
+        $('.nav').append("<li role='presentation'><a href='" + href + "' aria-controls='profile' role='tab' data-toggle='tab'>" + yiji_title[i] + "</a></li>");
+    }
+
+    $('.nav a').click(function() {
+        var yiji;
+        for (var i = 0; i < table_data['data'].length; i++) {
+            if (table_data['data'][i]['title'] === $(this).text()) {
+                yiji = $(this).text();
+                $('#subtitle').empty();
+                for (var j = 0; j < table_data['data'][i]['table'].length; j++) {
+                    $('#subtitle').append("<span class='erji_title'><a>" + table_data['data'][i]['table'][j]['title'] + "</a></span>");
+                }
+                break
+            }
+        }
+
+        $('.erji_title').append(function() {
+            //每次点击初始化上一次加载的数据
+            series = [];
+            arrayValue = [];
+ 
+            series.length = 0;
+            arrayValue.length = 0;
+            //如果只有一个二级标题，默认不显示
+            if ($('.erji_title').length <= 1) {
+
+                $('#subtitle').empty();
+            }
+            for (var i = 0; i < table_data['data'].length; i++) {
+                if (table_data['data'][i]['title'] === yiji) {
+                    for (var j = 0; j < table_data['data'][i]['table'].length; j++) {
+                        arrayValue.push([{
+                            value: table_data['data'][i]['table'][j]['xLabel'],
+                            name: table_data['data'][i]['table'][j]['yLabel'],
+
+                        }])
+                    }
+                }
+            }
+            radiusCenters = [
+                ['50%', '9.5%'],
+                ['50%', '34.5%'],
+                ['50%', '59.5%'],
+                ['50%', '84.5%']
+
+            ]
+
+
+            for(var i = 0; i < arrayValue.length; i++){
+                series.push({
+                    name: 'aaa',
+                    type: 'pie',
+                    avoidLabelOverlap: false,
+                    data: arrayValue[i],
+                    radius: ['42%', '52%'],
+                    center: radiusCenters[i],
+                    itemStyle: {
+                        color: 'rgba(0, 0, 0, 0)',
+                        emphasis: {
+                            shadowBlur: 10,
+                            shadowOffsetX: 0,
+                            shadowColor: 'rgba(0, 0, 0, 0)'
+                        }
+                    },
+                    label: {
+                        show: true,
+                        formatter: function(params) {
+                            return params.name +"\n"+ "{a|" + params.value + "}"
+                        },
+                        rich: {
+                            a: {
+                                color: '#fecda8',
+                                textShadowBlur: 20,
+                                textShadowColor: '#fecda8',
+                                fontSize: 60,
+                       
+                            }
+                        },
+                        position: 'center',
+                        fontSize: 130,
+                        color: '#fecda8',
+                        padding: [40, 0, 0, 0],
+                        textShadowBlur: 30,
+                        textShadowColor: '#fecda8',
+                        fontFamily: '庞门正道标题体',
+                    },
+                    labelLine: {
+                        length: 40,
+                        length2: 50,
+                        lineStyle: {
+                            width: 5
+                        }
+                    },
+                    hoverOffset: 0,
+                    minAngle: 20,
+                },
+
+                )
+            }
+         
+            myChart = echarts.init(document.getElementById('show_charts')); // 基于准备好的dom，初始化echarts实例
+            option = {
+
+                graphic: [{
+                        // id: 'logo',
+                        type: 'image',
+                        left: 0,
+                        top: 0,
+                        z: -10,
+                        // position: [155, 10],
+                        // x: -115,
+                        bounding: 'raw',
+                        origin: [250, 250],
+
+                        style: {
+                            image: '../../../../image/能源交易/1环.png',
+                            width: 500,
+                            height: 500,
+                            //                    opacity: 0.4
+                        }
+                    },
+                    {
+                        // id: 'logo',
+                        type: 'image',
+                        left: 0,
+                        top: 660,
+                        z: -10,
+                        // x: -115,
+                        bounding: 'raw',
+                        origin: [250, 250],
+                        style: {
+                            image: '../../../../image/能源交易/2环.png',
+                            width: 500,
+                            height: 500,
+                            //                    opacity: 0.4
+                        }
+                    },
+                    {
+                        // id: 'logo',
+                        type: 'image',
+                        left: 0,
+                        top: 1320,
+                        z: -10,
+                        // x: -115,
+                        bounding: 'raw',
+                        origin: [250, 250],
+                        style: {
+                            image: '../../../../image/能源交易/3环.png',
+                            width: 500,
+                            height: 500,
+                            //                    opacity: 0.4
+                        }
+                    },
+                    {
+                        // id: 'logo',
+                        type: 'image',
+                        left: 0,
+                        top: 1980,
+                        z: -10,
+                        origin: [250, 250],
+                        // x: -115,
+                        bounding: 'raw',
+                        style: {
+                            image: '../../../../image/能源交易/4环.png',
+                            width: 500,
+                            height: 500,
+                            //                    opacity: 0.4
+                        }
+                    }
+
+
+                ],
+
+                legend: {
+                    show: true,
+
+                    orient: 'vertical',
+                    right: '0',
+                    x: 'left',
+                    y: 'bottom',
+                    bottom: '50px',
+
+                    itemWidth: 50,
+                    itemHeight: 30,
+                    itemGap: 60,
+                    data: ['aa', 'bb', 'cc', 'dd'],
+                    textStyle: {
+                        color: globalFontColor,
+                        fontSize: globalFontSize,
+                    }
+                },
+                //color: ['#50C9FF','#1791FF', '#0373FF', '#0B4EFF', '#4751CA', '#727BE8', '#85F8FF', '#50B2FF'],
+                //color: ['rgba(0,253,173,0.25)', 'rgba(0,253,173,0.43)', 'rgba(0,253,173,0.74)', 'rgba(0,253,173,1)'],
+                color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [
+                    { offset: 0, color: 'rgba(255,255,255,0.1)' },
+
+                    { offset: 1, color: 'rgba(255,255,255,0.25)' }
+                ], false),
+                // color:new echarts.graphic.circleGradient(1, 1, 1, 1, [
+                //     { offset: 0, color: 'rgba(65,141,255,0)' },
+                //     { offset: 1, color:'rgba(255,255,255,1)'  }
+                // ]),
+                series: series,
+                //animationDuration: 0
+                animation: false,
+                animationThreshold: 100,
+                animationDurationUpdate: function(idx) {
+                    // 越往后的数据延迟越大
+                    return idx * 1000;
+                },
+            };
+            var rotation = 0;
+            clearInterval(interval)
+            interval = setInterval(function() {
+                for (var i = 0; i < option.graphic.length; i++) {
+                    option.graphic[i].rotation = (rotation += Math.PI / 360) % (Math.PI * 2)
+                }
+
+                myChart.setOption(option);
+            }, 30);
+        });
+        $('.erji_title a')[0].click();
+    });
+    $('.nav a')[0].click();
+};
+
+
+ue.interface.Flush=function()
+{
+    Flush();
+}
+
+ue.interface.Load=function(data)
+{
+    var jsonData = JSON.parse(data);
+    $.ajax({
+        url: "http://localhost:2277/监控版/NYJY.asmx/"+jsonData['FunctionName'],
+        type: "POST",
+        async: true,
+        data: jsonData['FunctionParam'],
+        error: function() {
+            Flush();
+        },
+        success: function(data) {
+            if(showRealData){
+                table_data = JSON.parse(data);
+                Flush();
+            }  
+        }
+    });
+
+}
+
+
+//播放动画
+ue.interface.PlayAnimation = function(time) {
+    option.animationDuration = time;
+    myChart.clear();
+    myChart.setOption(option);
+};

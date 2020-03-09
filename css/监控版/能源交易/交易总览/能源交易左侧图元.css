@@ -1,0 +1,105 @@
+/* 最外层容器 */
+
+#myTabs {
+    width: 500px;
+    height: 2640px;
+}
+
+
+/* 二级标题容器 */
+
+#subtitle {
+    height: 50px;
+    /* background-color: rgba(255, 0, 0, 0.13); */
+    margin-top: 0px;
+}
+
+
+/* 二级标题 */
+
+.erji_title>a {
+    /* width:160px; */
+    height: 80px;
+    width: 390px;
+    font-size: 40px;
+    font-weight: bold;
+    /* vertical-align: top; */
+    color: #FFFFFF;
+    padding: 0px;
+    margin-left: 60px;
+    margin-top: 580px;
+    text-align: center;
+    top: 0px;
+    
+}
+
+
+/* 图表容器 */
+
+#show_charts {
+    width: 500px;
+    height: 2640px;
+    margin-top: 0px;
+    /* background-color: rgba(255, 0, 0, 0.13); */
+}
+
+#tag {
+    background-color: #00FDAD;
+    /* background-image: url("../Image/bgimg1.jpg"); */
+    width: 0px;
+    height: 0px;
+    border-radius: 0px;
+    top: 0px;
+}
+
+
+/* 一级标题 */
+
+.nav>li>a {
+    font-size: 0px;
+    font-weight: bold;
+    vertical-align: top;
+    color: #ffffff;
+    padding: 0px;
+    margin-left: 30px;
+    margin-top: -5px;
+    top: 0px;
+    
+    
+}
+
+
+/* 一级标题鼠标移入 */
+
+.nav>li:hover,
+.nav>li>a:hover {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+
+/* 一级标题点击 */
+
+.nav-tabs>li.active>a,
+.nav-tabs>li.active>a:focus,
+.nav-tabs>li.active>a:hover {
+    background-color: transparent;
+    border-color: transparent;
+    font-size: 0px;
+    color: #ffffff;
+    top: 0px;
+}
+
+#tag {
+    background-color: rgba(255, 0, 0, 0);
+    /* background-image: url("../Image/bgimg1.jpg"); */
+    width: 0px;
+    height: 0px;
+    border-radius: 0px;
+    margin-top: 3px;
+    color: white;
+    
+    font-size: 0px;
+    line-height: 0px;
+    top: 0px;
+}

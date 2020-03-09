@@ -1,0 +1,70 @@
+
+.inline-block {
+    display: inline-block;
+}
+.panel {
+    position: relative;
+    box-sizing: border-box;
+    padding-top: 1.04vw;
+    padding-left: 2.08vw;
+    margin-bottom: 1.30vw;
+    background-color: rgba(0,0,0,0.35);
+    width: 83.85vw;
+    height: 7.55vw;
+}
+
+.big_text {
+    text-align: center;
+    color: #fff;
+    font-size: 0.83vw;
+}
+.normal_text {
+    text-align: center;
+    color: #fff;
+    font-size: 0.73vw;
+}
+.small_text {
+    text-align: center;
+    color: #fff;
+    font-size: 0.625vw;
+}
+.selected_text {
+    color: #00eeff;
+}
+.circle {
+    width: 0.52vw;
+    height: 0.52vw;
+    border-radius: 50%;
+    background-color: rgba(255,255,255,0.25);
+    border: 0.052vw rgba(255,255,255,0.25);
+}
+
+
+.selected_circle {
+    background-color: rgba(0,238,255,0.2);
+    border: 0.052vw rgba(0,238,255,0.2);
+}
+
+
+.pad_left_5 {
+    padding-left: 0.26vw;
+}
+.pad_right_50 {
+    box-sizing: border-box;
+    padding-right: 2.60vw;
+}
+.main {
+    position: absolute;
+    top: 3.91vw;
+    left: 2.86vw;
+    width: 80.99vw;
+    height: 3.65vw;
+}
+ul {
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+    padding-top: 0.49vw;
+    height: 0.52vw;
+    line-height: 0.52vw;
+}

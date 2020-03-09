@@ -1,0 +1,161 @@
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+.inline-block {
+    display: inline-block;
+}
+.inline {
+    display: inline;
+}
+input[type="date"]::-webkit-inner-spin-button {
+    visibility: hidden;
+}
+input[type="date"]::-webkit-clear-button {
+    visibility: hidden;
+}
+input[type="date"]::-webkit-datetime-edit-text {
+    visibility: hidden;
+}
+input[type="date"]::-webkit-datetime-edit-month-field {
+    visibility: hidden;
+}
+input[type="date"]::-webkit-datetime-edit-year-field {
+    visibility: hidden;
+}
+input[type="date"]::-webkit-datetime-edit-day-field {
+    visibility: hidden;
+}
+input[type="date"]::-webkit-calendar-picker-indicator {
+    position: absolute;
+    top: 0.15vw;
+    left: 0.26vw;
+    width: 1.04vw;
+    height: 1.04vw;
+    opacity: 0;
+}
+input[type="date"]::-webkit-calendar-picker-indicator:hover {
+    background-color: blue;
+}
+input[type="date"]::before{  
+    content:attr(placeholder);
+    -webkit-appearance:textarea;
+}
+.panel {
+    position: relative;
+    box-sizing: border-box;
+    padding-top: 1.04vw;
+    padding-left: 2.08vw;
+    margin-bottom: 1.30vw;
+    background-color: rgba(0,0,0,0.35);
+    width: 83.85vw;
+    height: 7.55vw;
+}
+
+.big_text {
+    text-align: center;
+    color: #fff;
+    font-size: 0.83vw;
+}
+.normal_text {
+    text-align: center;
+    color: #fff;
+    font-size: 0.73vw;
+}
+.small_text {
+    text-align: center;
+    color: #fff;
+    font-size: 0.625vw;
+}
+.selected_text {
+    color: #00eeff;
+}
+.circle {
+    width: 0.52vw;
+    height: 0.52vw;
+    border-radius: 50%;
+    background-color: rgba(255,255,255,0.25);
+    border: 0.052vw rgba(255,255,255,0.25);
+}
+.selected_circle {
+    background-color: rgba(0,238,255,0.2);
+    border: 0.052vw rgba(0,238,255,0.2);
+}
+.pad_left_5 {
+    padding-left: 0.26vw;
+}
+.pad_right_50 {
+    box-sizing: border-box;
+    padding-right: 2.60vw;
+}
+
+/* 上面部分 */
+
+.main {
+    position: absolute;
+    top: 3.91vw;
+    left: 2.86vw;
+    width: 80.99vw;
+    height: 3.65vw;
+}
+#left1 {
+    width: 28.65vw;
+    height: 100%;
+}
+.box {
+    box-sizing: border-box;
+    width: 8.96vw;
+    height: 1.56vw;
+    border: 0.052vw rgba(100,100,100,0.21);
+    border-radius: 0.26vw;
+    background-color: rgba(0,0,0,0.21)!important;
+    font-size: 0.625vw;
+    color: #b3b3b3;
+}
+input {
+    padding-left: 1.56vw;
+    margin-top: 0;
+}
+input::-webkit-input-placeholder {
+    color: #b3b3b3;
+    font-size: 0.625vw;
+}
+.date {
+    background: url(../../Image/控制版/test.png) left center no-repeat;
+    background-size: contain;
+}
+.pos {
+    padding: 0 0.52vw;
+}
+
+ul {
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+    padding-top: 0.49vw;
+    height: 0.52vw;
+    line-height: 0.52vw;
+}
+.btn {
+    box-sizing: border-box;
+    width: 2.92vw;
+    height: 1.56vw;
+    padding: 0;
+    font-size: 0.625vw;
+    text-align: center;
+    line-height: 1.56vw;
+}
+.searchBtn {
+    margin-right: 1.56vw;
+    border: 0.052vw rgba(152,152,152,0.2);
+    border-radius: 0.26vw;
+    background-color: rgba(255,255,255,0.2);
+}
+.resetBtn {
+    margin-right: 2.13vw;
+    border: 0.052vw rgba(62,97,142,0.2);
+    border-radius: 0.26vw;
+    background-color: rgba(0,238,255,0.2);
+}

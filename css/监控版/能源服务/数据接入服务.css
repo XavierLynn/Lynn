@@ -1,0 +1,160 @@
+#myTabs {
+    width: 1940px;
+    height: 300px;
+    /* background-color: red; */
+}
+
+#show_table {
+    margin-top: 0px;
+    height: 210px;
+}
+
+.table {
+    width: 100%;
+    height: 290px;
+    /* margin-bottom: 110px; */
+    /* border: 1px solid white; */
+}
+
+.table-header {
+    width: 95%;
+    height: 170px;
+    margin-top: 18px;
+    /* margin-bottom: -30px; */
+    
+    margin-left: 55px; 
+    /* background-color: red; */
+    /* border-bottom: 1px solid white; */
+}
+
+.table-header>tbody {
+    width: 100%;
+    height: 100%;
+}
+
+.table-header>tbody>tr>td {
+    text-align: center;
+    width: 25%;
+    height: 100%;
+    color: #ffffff;
+    font-size: 50px;
+    
+    /* //border: 5px solid white; */
+    background-image: url("../../../Image/textFrame.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.table-body {
+    width: 104%;
+    /* height: 50px; */
+    margin-left: -100px;
+    display: block;
+    overflow-y: scroll;
+    /* margin-bottom: 56px; */
+}
+
+.table-body>tbody,
+.table-body tr {
+    width: 100%;
+    display: inline-block;
+}
+
+
+/* .table-body::-webkit-scrollbar { */
+
+
+/* display: auto;
+    background-color: aqua;
+    color: blue; */
+
+
+/* width: 1rem; */
+
+
+/* } */
+
+.table-body::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    height: 0px;
+    /* -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3); */
+    background-color: #CDE8FF
+}
+
+.table-body::-webkit-scrollbar {
+    /*隐藏滚轮*/
+    /* display: none; */
+    width: 24px;
+    height: 0px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.table-body>tbody>tr>td {
+    display: inline-block;
+    width: 25%;
+    height: 106px;
+    line-height: 106px;
+    text-align: left;
+    /* vertical-align:middle; */
+    color: white;
+    font-size: 40px;
+}
+
+.table-body>tbody>tr:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.selectedCell {
+    color: #FF8400;
+}
+
+.unSelectedCell {
+    color: #83A2C4;
+}
+
+
+/* span {
+    display: inline-block;
+    height: 5px;
+    width: 100%;
+    margin: 0px;
+    /* margin-top: -20px; */
+
+
+/* background: red;  */
+
+
+/* background: linear-gradient(to right, #01AFFD00, #01AFFD, #00FFF6, #01AFFD, #01AFFD00);
+} */
+
+
+/*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/
+
+
+/* ::-webkit-scrollbar
+{
+	width: 16px;
+	height: 16px;
+	background-color: #F5F5F5;
+} */
+
+
+/*定义滚动条轨道 内阴影+圆角*/
+
+
+/* ::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #F5F5F5;
+} */
+
+
+/*定义滑块 内阴影+圆角*/
+
+
+/* ::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #555;
+} */

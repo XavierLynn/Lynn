@@ -1,0 +1,206 @@
+#myTabs {
+    width: 8180px;
+    height: 2930px;
+    /* background-color: #060D1D; */
+    position: relative;
+}
+
+#show_charts {
+    width: 5000px;
+    height: 3570px;
+    text-align: center;
+    /* background-color: red; */
+    position: absolute;
+    top: -200px;
+    left: 1000px;
+    /* background-color:rgba(255, 0, 0, 0.1) */
+    /* background-color: #FF00FF; */
+    /* overflow-y: scroll; */
+    /* background-color: antiquewhite; */
+}
+
+#navMap {
+    width: 5000px;
+    height: 3570px;
+    margin-left: 400px;
+    margin-top:300px;    
+    background-image: url("../../../../Image/监控版/客户特征分析/张江地图.png");
+    background-repeat: no-repeat;
+    /* background-size: % 92%; */
+}
+
+#bqdyph {
+    width: 945px;
+    height: 2300px;
+    top: 240px;
+    left: 190px;
+    position: absolute;
+}
+
+#bqqylb {
+    width: 1790px;
+    height: 2250px;
+    top: 240px;
+    left: 6200px;   
+    position: absolute;
+    /* background-color: white; */
+}
+.bg{
+    top: 720px;
+    left: 975px;
+    position: absolute;
+}
+
+/* 原国家高新区 */
+#zj_hightec {
+    top: 920px;
+    left: 3350px;
+    position: absolute;
+}
+#zj_hightec_div {
+    top: 820px;
+    left: 3050px;
+    position: absolute;
+}
+/* 孙桥科创中心 */
+#zj_sunqiao {
+    top: 1240px;
+    left: 3260px;
+    position: absolute;
+}
+#zj_sunqiao_div {
+    top: 1140px;
+    left: 2960px;
+    position: absolute;
+}
+/* 张江南区 */
+#zj_south {
+    top: 1100px;
+    right: 2550px;
+    position: absolute;
+}
+#zj_south_div {
+    top: 1000px;
+    right: 2250px;
+    position: absolute;
+}
+/* 规划保留用地 */
+#zj_green {
+    top: 1850px;
+    left: 2600px;
+    position: absolute;
+}
+#zj_green_div {
+    top: 1750px;
+    left: 2300px;
+    position: absolute;
+}
+/* 康桥工业北区 */
+#zj_kq_north {
+    top: 1400px;
+    right: 2850px;
+    position: absolute;
+}
+#zj_kq_north_div {
+    top: 1300px;
+    right: 2550px;
+    position: absolute;
+}
+/* 上海国际医学园区 */
+#zj_medicine {
+    top: 1750px;
+    right: 3250px;
+    position: absolute;
+}
+#zj_medicine_div {
+    top: 1650px;
+    right: 2950px;
+    position: absolute;
+}
+/* 康桥工业园南区 */
+#zj_kq_south {
+    top: 2050px;
+    right: 3700px;
+    position: absolute;
+}
+#zj_kq_south_div {
+    top: 1950px;
+    right: 3400px;
+    position: absolute;
+}
+
+.regName {
+    font-size: 70px;
+    color: white;
+}
+
+.regionName_point {
+    /* width:300px;
+    height:300px; */
+    opacity: 0.7;
+    /* border: 1px solid white; */
+    
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform:translate(-50%,-50%);
+}
+.point_Div{
+    width:300px;
+    height:300px;
+    /* border: 1px solid red; */
+}
+
+#shanghaiMap {
+    width: 400px;
+    height: 400px;
+    /* background-color: #FFF1; */
+    background-image: url("../../../../Image/监控版/客户特征分析/小地图框.png");
+    /* border: 2px solid #276E99; */
+    /* border-radius: 20px; */
+    background-size: 100%;
+    position: absolute;
+    top: 2350px;
+    left: 5450px;
+    z-index: 10;
+}
+
+#zhangjiangMap {
+    width: 400px;
+    height: 400px;
+    /* background-color: #FFF1; */
+    background-image: url("../../../../Image/监控版/客户特征分析/小地图框.png");
+    /* border: 2px solid #276E99; */
+    /* border-radius: 20px; */
+    background-size: 100%;
+    position: absolute;
+    top: 2350px;
+    left: 4850px;
+    z-index: 10;
+}
+
+.regionName{
+    background-color: transparent;
+    outline: none;
+    border: 0px solid;
+    color: white;
+    font-size: 60px;
+}
+.regionName:hover{
+    color:rgb(247,170,21);
+}
+.regionNmeSelect{
+    color:rgb(247,170,21);
+}
+.column1{ 
+    cursor:pointer;
+}
+
+.cloumnNum{
+    font-size: 90px;
+    margin-left: 50px;
+    margin-right: 50px; 
+    cursor:pointer;
+    /* 173,145,129 */
+    /* 52,113,163 */
+}

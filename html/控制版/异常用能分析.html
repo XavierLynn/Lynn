@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <title>导航</title>
+</head>
+<link rel="stylesheet" type="text/css" href="../../css/控制版/异常用能分析.css">
+<link rel="stylesheet" href="../../css/控制版/style.css">
+
+<script src="../../node_modules/jquery/dist/jquery.min.js"></script>
+<script src="../../node_modules/jquery/dist/selectFx.js"></script>
+<script src="../../node_modules/jquery/dist/classie.js"></script>
+<script src="../../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="../../js/控制版/异常用能分析.js"></script>
+
+<body>
+    <div id="content">
+        <span class="text pad">异常事件列表</span>
+        <div id="exception">
+            <div class="left">
+                <span class="text">起始时间:</span>
+                <input type="date" id='startTime' class="box date" placeholder="起始时间" onchange="this.removeAttribute('placeholder')">
+                <span class="text pos">至</span>
+                <input type="date" id='endTime' class="box date" placeholder="结束时间" onchange="this.removeAttribute('placeholder')">
+                <span class="text exceptionReason">异常原因:</span>
+                <select class="box" id="exceptionReasons">
+                    <option>全部</option>
+                </select>
+                <span class="text exceptionReason">状态:</span>
+                <select class="box" id="state">
+                    <option>全部</option>
+                </select>
+                <span class="text exceptionReason">关键字:</span>
+                <input class="box" type="text" id="keyword" placeholder="企业名称"/>
+            </div>
+            <div class="right">
+                <input class="btn" type="button" id='searchBtn' value="查询" />
+                <input class="btn" type="button" id='resetBtn' value="重置" />
+            </div>
+            
+        </div>
+    </div>
+</body>
+
+</html>

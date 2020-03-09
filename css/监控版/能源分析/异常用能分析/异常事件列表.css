@@ -1,0 +1,139 @@
+#myTabs {
+    width: 4020px;
+    height: 2820px;
+}
+
+
+/* #show_table {
+    width: 1600px;
+    height: 1400px;
+} */
+
+
+/* .title {
+    font-size: 66px;
+} */
+
+#show_table {
+    width: 98%;
+    margin-top: 180px;
+    height: 2420px;
+    margin-left: 20px;
+    /* background-image: url("../../Image/能源企业视角/负载路线BackGround副本.png"); */
+    /* background-image: url("../../Image/能源管理/高负载线路backGround.png"); */
+}
+
+.table {
+    width: 100%;
+    height: 2420px;
+    margin-left: 0px;
+    margin-top: 0px;
+    /* background-image: url("../../Image/能源管理/高负载线路backGround.png"); */
+    /* margin-bottom: 110px; */
+    /* border: 1px solid white; */
+}
+
+.table-header {
+    width: 100%;
+    height: 100px;
+    margin-top: 50px;
+    /* background-color: red; */
+    /* border-bottom: 1px solid white; */
+}
+
+.table-header>tbody {
+    width: 100%;
+    height: 100%;
+    /* border-bottom: 1px solid white; */
+}
+
+.table-header>tbody>tr>td {
+    text-align: center;
+    /* width: 14.28%; */
+    height: 100%;
+    color: #FFFFFF;
+    font-size: 60px;
+    
+}
+
+.table-body {
+    width: 100%;
+    height: 2150px;
+    /* margin-left: 30px; */
+    display: block;
+    overflow-y: scroll;
+    /* margin-bottom: 56px; */
+    table-layout: fixed;
+}
+
+.table-body>tbody,
+.table-body tr {
+    width: 100%;
+    display: inline-block;
+}
+
+.table-body::-webkit-scrollbar {
+    display: auto;
+    background-color: rgba(219, 248, 255, 0.25);
+    color: blue;
+    width: 1.2rem;
+}
+
+.table-body::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 20px rgba(65, 141, 255, 0.6);
+    background: rgb(219, 248, 255);
+}
+
+.table-body::-webkit-scrollbar {
+    /*隐藏滚轮*/
+    display: inline-block;
+}
+
+.table-body>tbody>tr>td {
+    display: table-cell;
+    /* width: 14.28%; */
+    height: 120px;
+    /* line-height: 100px; */
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    font-size: 50px;
+       
+    /* word-break: break-all; */
+    /* text-overflow: ellipsis;
+    -moz-text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap; */
+}
+
+.table-body>tbody>tr:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+
+/* 
+.selectedCell {
+    color: #FFF;
+    
+}
+
+.unSelectedCell {
+    color: #c0f2ff;
+} */
+
+span {
+    display: inline-block;
+    height: 8px;
+    width: 100%;
+    margin: 0px;
+    /* border-bottom: 3px dashed;
+    border-bottom-color: 'rgba(255,255,255,0.3)'; */
+    /* margin-top: -20px; */
+    /* background: -webkit-linear-gradient(right, #1F3954, #7BABD1, #A9C7CF, #7BABD1, #1F3954); */
+}
+
+
+/* 点缀图片 */
+
+

@@ -1,0 +1,160 @@
+#myTabs {
+    width: 1670px;
+    height: 1050px;
+    /* background-color: red; */
+}
+
+#show_table {
+    margin-top: 1px;
+}
+
+.table {
+    width: 100%;
+    height: 240px;
+    /* margin-bottom: 110px; */
+    /* border: 1px solid white; */
+}
+
+.table-header {
+    width: 97%;
+    height: 134px;
+    margin-bottom: -30px;
+    margin-top: 75px;
+    margin-left: 0px;
+    /* background-color: red; */
+    /* border-bottom: 1px solid white; */
+}
+
+.table-header>tbody {
+    width: 100%;
+    height: 100%;
+    /* border-bottom: 1px solid white; */
+}
+
+.table-header>tbody>tr>td {
+    text-align: center;
+    width: 25%;
+    height: 100%;
+   color: #ffffff;
+        
+    font-size: 44px;
+}
+
+.table-body {
+    width: 95%;
+    /* height: 50px; */
+    margin-left: 0px;
+    margin-left:25px;
+    display: block;
+    overflow-y: scroll;
+    /* margin-bottom: 56px; */
+}
+
+.table-body>tbody,
+.table-body tr {
+    width: 100%;
+    
+    display: inline-block;
+}
+
+
+/* .table-body::-webkit-scrollbar { */
+
+
+/* display: auto;
+    background-color: aqua;
+    color: blue; */
+
+
+/* width: 1rem; */
+
+
+/* } */
+
+.table-body::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    height: 0px;
+    /* -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3); */
+    background-color: #CDE8FF
+}
+
+.table-body::-webkit-scrollbar {
+    /*隐藏滚轮*/
+    /* display: none; */
+    width: 24px;
+    height: 0px;
+    background-color: rgba(255, 255, 255, 0.5);
+   
+    
+}
+.table-body::-webkit-scrollbar-thumb
+{
+	border-radius: 100px;
+    background-color: rgb(217,247,254); 
+    /* box-shadow:0 0 0.2em rgb(217,247,254), -0 -0 0.2em rgb(217,247,254);
+    /* scrollbar-shadow-color:    */
+    /* scrollbar-darkshadow-color:  */
+    /* scrollbar-highlight-color: 0 0 0.2em rgb(217,247,254), -0 -0 0.2em rgb(217,247,254);  */
+
+    
+ }  
+.table-body>tbody>tr>td {
+    display: inline-block;
+    width: 33%;
+    height: 106px;
+    line-height: 106px;
+    text-align: center;
+    /* vertical-align:middle; */
+    color:  rgb(217,247,254);
+    font-size: 40px;
+}
+
+.table-body>tbody>tr:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.selectedCell {
+    color: #FF8400;
+}
+
+.unSelectedCell {
+    color: #83A2C4;
+}
+
+span {
+    display: inline-block;
+    height: 8px;
+    width: 95%;
+    margin: 0px;
+    margin-left:25px;
+    /* margin-top: -20px; */
+    /* background: red;  */
+    background: linear-gradient(to right, rgba(97,173,255,0), rgba(97,173,255,1), rgba(209,246,255,1), rgba(97,173,255,1), rgba(97,173,255,0));
+}
+
+
+
+/*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/
+
+
+/* ::-webkit-scrollbar
+{
+	width: 16px;
+	height: 16px;
+	background-color: rgb(211, 73, 73);
+} 
+  */
+
+/*定义滚动条轨道 内阴影+圆角*/
+
+
+/* ::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}  */
+
+/*定义滑块 内阴影+圆角*/
+
+

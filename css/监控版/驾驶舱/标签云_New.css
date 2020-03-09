@@ -1,0 +1,93 @@
+
+body {
+    /* background-image: url("../Image/bgimg1.jpg"); */
+    background-color: rgba(6, 13, 29, 0);
+    overflow: scroll;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    font-family: '黑体';
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    /* background-color: #060D1D; */
+}
+
+
+
+#myTabs {
+    width: 2000px;
+    height: 500px;
+    /* background-color: rgb(226, 9, 9); */
+}
+
+
+/* 二级标题容器 */
+
+#subtitle {
+    height: 0px;
+}
+
+
+/* 二级标题 */
+
+.erji_title>a {
+    width: 160px;
+    height: 0px;
+}
+
+
+/* 图表容器 */
+
+#show_charts {
+  
+    width: 2000px;
+    height: 400px;
+}
+
+#tag {
+    background-color: rgba(255,0,0,0);
+
+    width: 40px;
+    height: 70px;
+    border-radius: 0px;
+    margin-top: -5px;
+    color: white;
+    font-size: 60px;
+    line-height: 0px;
+}
+
+
+/* 一级标题 */
+
+.nav>li>text {
+    font-size: 70px;
+    vertical-align: top;
+    color: rgb(255, 255, 255);
+    padding: 0px;
+    margin-left: 30px;
+    
+}
+
+
+/* 一级标题鼠标移入 */
+
+.nav>li:hover,
+.nav>li>text:hover {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+
+/* 一级标题点击 */
+
+.nav-tabs>li.active>text,
+.nav-tabs>li.active>text:focus,
+.nav-tabs>li.active>text:hover {
+    background-color: transparent;
+    border-color: transparent;
+    /* 一级标题被点击后的字体颜色 */
+    color: #CDE8FF;
+    font-size: 70px;
+}
+

@@ -1,0 +1,34 @@
+/* 最外层容器 */
+
+#myTabs {
+    width: 2000px;
+    height: 1700px;
+    /* background-color: #CCC; */
+}
+
+
+/* 二级标题容器 */
+
+#subtitle {
+    height: 100%;
+    margin-top: 500px;
+    /* background-color: red; */
+}
+
+
+/* 二级标题 */
+
+.erji_title>a {
+    display: block;
+    width: 290px;
+    height: 220px;
+}
+
+
+/* 图表容器 */
+
+#show_charts {
+    width: 100%;
+    height: 1600px;
+    /* background-color: red; */
+}

@@ -1,0 +1,64 @@
+/* 最外层容器 */
+
+#myTabs {
+    width: 1380px;
+    height: 570px;
+    position: relative;
+}
+
+.nav {
+    position: absolute;
+    top: 100px;
+}
+
+.nav>li>a {
+    font-size: 72px;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    font-size: 72px;
+}
+
+#show_table {
+    position: absolute;
+    top: 264px;
+    left:170px;
+    width: 970px;
+    height: 204px;
+    /* background: red; */
+    background-image: url("../../../Image/监控版/能源管理/倒计时.png");
+    background-size: 100% 100%;
+    overflow-x: hidden;
+}
+
+#numberDiv1{
+    /* background-color: rgba(255,0,0,0.5); */
+    width:330px;
+    position: absolute;
+    left:-40px;
+    text-align: right;
+}
+#numberDiv2{
+    width:330px;
+    position: absolute;
+    left:300px;
+    text-align: right;
+}
+#numberDiv3{
+    width:330px;
+    position: absolute;
+    left:640px;
+    text-align: right;
+}
+#hours1{  
+    position: absolute;
+    left:38px;
+}
+#min1{
+    position: absolute;
+    left:38px;
+}
+#sec1{
+    position: absolute;
+    left:38px;
+}

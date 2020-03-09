@@ -1,0 +1,137 @@
+/* 最外层容器 */
+
+#myTabs {
+    width: 2320px;
+    height: 2500px;
+    position: relative;
+}
+
+
+/* 图表容器 */
+
+#show_Panel {
+    width: 100%;
+    height: 2360px;
+    position: absolute;
+    top: 40px;
+    /* background-color: red; */
+}
+
+.dataCard {
+    margin-bottom: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+    width: 2238px;
+    height: 1098px;
+    background-image: url('../../../Image/能源管理/backGroundImage.png');
+    position: relative;
+}
+
+.titlePanel {
+    padding-top: 40px;
+    height: 92px;
+    /* background-color: blue; */
+}
+
+.titleLeft {
+    width: 153px;
+    height: 92px;
+    /* background-color: yellow; */
+    background-image: url('../../../Image/能源管理/titleLeft.png');
+}
+
+.titleButton {
+    display: block;
+    margin: 0 auto;
+    background-color: transparent;
+    border-width: 0px;
+    outline: none;
+}
+
+.titleContent {
+    font-size: 70px;
+    color: white;
+    vertical-align: top;
+}
+
+.titleRight {
+    width: 153px;
+    height: 92px;
+    background-image: url('../../../Image/能源管理/titleRight.png');
+}
+
+
+/* 表格容器 */
+
+.tablePanel {
+    position: absolute;
+    left: 85px;
+    top: 300px;
+    width: 600px;
+    height: 560px;
+    /* background:green; */
+}
+
+
+/* 列表容器 */
+
+.chartPanel {
+    position: absolute;
+    right: 100px;
+    top: 200px;
+    width: 1400px;
+    height: 810px;
+    /* background:blue; */
+}
+
+.show_chart {
+    width: 100%;
+    height: 810px;
+}
+
+.tableTitle {
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+
+.tableContent {
+    font-family: '黑体';
+    font-size: 70px;
+    color: white;
+    text-align: center;
+}
+
+
+/* 工具条容器 */
+
+#show_Bar {
+    width: 100%;
+    height: 60px;
+    /* background-color: rgba(255, 150, 255, 0.8); */
+    position: absolute;
+    bottom: 80px;
+}
+
+#show_table {
+    text-align: center;
+}
+
+.tabItem {
+    width: 210px;
+    height: 60px;
+    background-image: url("../../../Image/监控版/能源管理/切换未选中.png");
+    background-color: transparent;
+    border-width: 0px;
+    background-size: 100% 100%;
+    color: white;
+    outline: none;
+}
+
+.tabItem:hover {
+    background-image: url("../../../Image/监控版/能源管理/切换选中.png");
+}
+
+.tabItemSelect {
+    background-image: url("../../../Image/监控版/能源管理/切换选中.png");
+}

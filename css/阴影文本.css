@@ -1,0 +1,12 @@
+body {
+    vertical-align: top;
+    text-align: center;
+    font-size: 80vh;
+    line-height: 80vh;
+    color: transparent;
+    background: transparent;
+       
+    overflow: scroll;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}

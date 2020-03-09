@@ -1,0 +1,49 @@
+/* 最外层容器 */
+
+#myTabs {
+    width: 2700px;
+    height: 1400px;
+}
+
+
+/* 二级标题容器 */
+
+#subtitle {
+    height: 110px;
+    margin-top: 30px;
+}
+
+
+/* 二级标题 */
+
+.erji_title>a {
+    color: rgba(135, 205, 255, 0);
+    width: 850px;
+    text-align: center;
+    height: 110px;
+    font-size: 60px;
+}
+
+
+/* 图表容器 */
+
+#show_charts {
+    width: 2600px;
+    height: 1230px;
+}
+
+
+/* 一级标题 */
+
+.nav>li>a {
+    font-size: 60px;
+    /* font-weight: bold; */
+    vertical-align: top;
+    color: rgb(200, 200, 200);
+    padding: 0px;
+    margin-left: 30px;
+    margin-top: -5px;
+    top: 14px;
+}
+
+

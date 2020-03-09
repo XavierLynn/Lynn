@@ -1,0 +1,116 @@
+#myTabs {
+    width: 1600px;
+    height: 1160px;
+    /* background-color: #060D1D; */
+    position: relative;
+}
+
+.nav {
+    position: absolute;
+    top: 80px;
+}
+
+.nav>li>a {
+    font-size: 60px;
+}
+
+.nav-tabs>li.active>a,
+.nav-tabs>li.active>a:focus,
+.nav-tabs>li.active>a:hover {
+    font-size: 60px;
+}
+
+#show_charts {
+    position: absolute;
+    top: 200px;
+    width: 1520px;
+    height: 960px;
+    text-align: left;
+    margin-left: 60px;
+    margin-right: 40px;
+    /* background-color: #FF0000; */
+    overflow-y: scroll;
+    /* background-color: antiquewhite; */
+}
+
+#show_charts::-webkit-scrollbar {
+    display: none;
+    background-color: #E7F8FF44;
+    color: blue;
+    width: 1rem;
+}
+
+#show_charts::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    /* -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3); */
+    background-color: #E7F8FF;
+}
+
+#show_charts::-webkit-scrollbar {
+    /*隐藏滚轮*/
+    display: none;
+}
+
+#show_charts>button {
+    width: 100%;
+    height: 160px;
+    text-align: left;
+    padding-left: 0px;
+    font-size: 56px;
+    color: white;
+    background-color: rgba(0,255,0,0);
+    border: 0px solid rgba(0,0,0,0);
+    position: relative;
+    cursor: default;
+    /* background-image: url('../../Image/能源企业视角/序号背景.png'); */
+}
+
+button>img {
+    position: absolute;
+    left: 0px;
+}
+
+
+/* #show_charts>button>label {
+    font-family: MorganBig-Regular;
+    font-weight: 100;
+    font-style: italic;
+    margin-right: 50px;
+} */
+
+.column1 {
+    position: absolute;
+    left: 30px;
+    font-size: 70px;
+    font-family: '华文隶书';
+}
+
+.column2 {
+    font-size: 50px;
+    margin-left: 200px;
+}
+
+.column3 {
+    position: absolute;
+    right: 180px;
+    font-size: 70px;
+    font-family: MorganBig-Regular;
+    font-weight: 100;
+    color: rgba(133, 222, 255);
+}
+
+.column4 {
+    position: absolute;
+    right: 0px;
+    font-size: 70px;
+    color: rgba(133, 222, 255);
+}
+
+#show_charts>button:hover {
+    /* font-size: 66px; */
+}
+
+#show_charts>button:focus {
+    /* font-size: 66px; */
+    outline: none;
+}

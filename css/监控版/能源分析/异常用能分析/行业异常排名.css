@@ -1,0 +1,30 @@
+/* 最外层容器 */
+
+#myTabs {
+    width: 2100px;
+    height: 1530px;
+}
+
+
+/* 二级标题容器 */
+
+#subtitle {
+    height: 0px;
+}
+
+
+/* 二级标题 */
+
+.erji_title>a {
+    width: 160px;
+    height: 40px;
+}
+
+
+/* 图表容器 */
+
+#show_charts {
+    width: 2100px;
+    height: 1350px;
+    top: 50px;
+}

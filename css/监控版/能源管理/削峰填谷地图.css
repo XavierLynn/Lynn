@@ -1,0 +1,106 @@
+#myTabs {
+    width: 3200px;
+    height: 2640px;
+    /* background-color: #060D1D; */
+    position: relative;
+}
+
+#show_charts {
+    width: 2300px;
+    height: 2400px;
+    text-align: center;
+    /* background-color: red; */
+    position: absolute;
+    top: 150px;
+    left: 200px;
+    /* background-color: #FF00FF; */
+    /* overflow-y: scroll; */
+    /* background-color: antiquewhite; */
+}
+
+#navMap {
+    width: 1600px;
+    height: 2200px;
+}
+
+#原国家高新区 {
+    top: 240px;
+    left: 1400px;
+    position: absolute;
+}
+
+#孙桥科创中心 {
+    top: 640px;
+    left: 1400px;
+    position: absolute;
+}
+
+#张江南区 {
+    top: 840px;
+    left: 150px;
+    position: absolute;
+}
+
+#规划保留用地 {
+    top: 1440px;
+    left: 1450px;
+    position: absolute;
+}
+
+#康桥工业园北区 {
+    top: 1240px;
+    left: 40px;
+    position: absolute;
+}
+
+#上海国际医学园区 {
+    top: 1640px;
+    left: 40px;
+    position: absolute;
+}
+
+#康桥工业园南区 {
+    top: 2000px;
+    left: 120px;
+    position: absolute;
+}
+
+.regName {
+    font-size: 70px;
+    color: white;
+    
+}
+
+#shanghaiMap {
+    width: 412px;
+    height:412px;
+    /* background-color: #FFF1; */
+    background-image: url("../../../Image/监控版/客户特征分析/小地图框.png");
+    /* border: 2px solid #276E99; */
+    /* border-radius: 20px; */
+    background-size: 100%;
+    position: absolute;
+    top: 190px;
+    left: 2600px;
+    z-index: 10;
+}
+
+#zhangjiangMap {
+    width: 412px;
+    height:412px;
+    /* background-color: #FFF1; */
+    background-image: url("../../../Image/监控版/客户特征分析/小地图框.png");
+    /* border: 2px solid #276E99; */
+    /* border-radius: 20px; */
+    background-size: 100%;
+    position: absolute;
+    top: 690px;
+    left: 2600px;
+    z-index: 10;
+}
+
+
+/* 6200 240 */
+
+
+/* 190 240 */

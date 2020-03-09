@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <title>导航</title>
+</head>
+<link rel="stylesheet" type="text/css" href="../../css/控制版/能源管理.css">
+<link rel="stylesheet" href="../../css/控制版/style.css">
+
+<script src="../../node_modules/jquery/dist/jquery.min.js"></script>
+<script src="../../node_modules/jquery/dist/selectFx.js"></script>
+<script src="../../node_modules/jquery/dist/classie.js"></script>
+<script src="../../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="../../js/控制版/能源管理.js"></script>
+
+<body>
+    <div class="panel">
+        <div class="top clearfix">
+            <div class="left" id="left1">
+                <span class="big_text">线路实时态势</span>
+                <div class="main" id="geo">
+                    <div class="inline-block geo_white">
+                        <div class="labels inline-block small_text">上海市</div>
+                    </div>
+                    <div class="inline-block geo_white">
+                        <div class="labels inline-block small_text">浦东区</div>
+                    </div>
+                    <div class="inline-block geo_white">
+                        <div class="labels small_text inline-block selected_labels">张江科技城</div>
+                    </div>
+                </div>
+            </div>
+            <div class="left" id="left2">
+                <span class="big_text">分区选择</span>
+                <ul id="partition">
+                    <li class="partitionList inline-block">
+                        <div class="circle inline-block"></div>
+                        <span class="pad_left_5 normal_text inline-block partitionInfo">张江南区</span>
+                        <span class="number inline-block normal_text">367</span>
+                    </li>
+                    <li class="partitionList inline-block">
+                        <div class="circle inline-block"></div>
+                        <span class="pad_left_5 normal_text inline-block partitionInfo">张江北区</span>
+                        <span class="number normal_text">367</span>
+                    </li>
+                    <li class="partitionList inline-block">
+                        <div class="circle inline-block selected_circle"></div>
+                        <span class="pad_left_5 normal_text inline-block partitionInfo selected_text">张江中区</span>
+                        <span class="number normal_text selected_text">367</span>
+                    </li>
+                    <li class="partitionList inline-block">
+                        <div class="circle inline-block"></div>
+                        <span class="normal_text pad_left_5 inline-block partitionInfo">康桥工业园区南区</span>
+                        <span class="number normal_text">367</span>
+                    </li>
+                    <li class="partitionList inline-block">
+                        <div class="circle inline-block"></div>
+                        <span class="normal_text pad_left_5 inline-block partitionInfo">康桥工业园区北区</span>
+                        <span class="number normal_text">367</span>
+                    </li>
+                    <li class="partitionList inline-block">
+                        <div class="circle inline-block"></div>
+                        <span class="normal_text pad_left_5 inline-block partitionInfo">康桥工业园区东区</span>
+                        <span class="number normal_text">367</span>
+                    </li>
+                    <li class="partitionList inline-block">
+                        <div class="circle inline-block"></div>
+                        <span class="normal_text pad_left_5 inline-block partitionInfo">上海国际医学园区</span>
+                        <span class="number normal_text">367</span>
+                    </li>
+                    <li class="partitionList inline-block">
+                        <div class="circle inline-block"></div>
+                        <span class="normal_text pad_left_5 inline-block partitionInfo">规划保留用地</span>
+                        <span class="number normal_text">367</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <hr />
+        <div class="bottom">
+            <span class="big_text">最新削峰填谷事件</span>
+            <div class="main">
+                <div class="clearfix">
+                    <div class="left">
+                        <span class="normal_text">起始时间:</span>
+                        <input type="date" id='startTime' class="box date" placeholder="起始时间" onchange="this.removeAttribute('placeholder')">
+                        <span class="text pos normal_text">至</span>
+                        <input type="date" id='endTime' class="box date" placeholder="结束时间" onchange="this.removeAttribute('placeholder')">
+                        <span class="text exceptionReason normal_text">事件类型:</span>
+                        <select class="box" id="exceptionReasons">
+                            <option>全部</option>
+                        </select>
+                        <span class="text exceptionReason normal_text">状态:</span>
+                        <select class="box" id="state">
+                            <option>全部</option>
+                        </select>
+                    </div>
+                    <div class="right">
+                        <input class="selected_text btn" type="button" id='searchBtn' value="查询" />
+                        <input class="selected_text btn" type="button" id='resetBtn' value="重置" />
+                    </div>
+                </div>
+                <ul id="type">
+                    <li class="inline-block pad_right_55">
+                        <div class="circle inline-block selected_circle"></div>
+                        <span class="pad_left_5 normal_text inline-block selected_text">邀约</span>
+                    </li>
+                    <li class="inline-block pad_right_55">
+                        <div class="circle inline-block"></div>
+                        <span class="pad_left_5 normal_text inline-block">执行</span>
+                    </li>
+                    <li class="inline-block pad_right_55">
+                        <div class="circle inline-block"></div>
+                        <span class="pad_left_5 normal_text inline-block">完结</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

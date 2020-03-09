@@ -1,0 +1,109 @@
+#myTabs {
+    height: 1520px;
+    width: 1830px;
+    /* background-color: #000; */
+}
+
+#show_table {
+    display: block;
+    overflow-y: scroll;
+    height: 1338px;
+    width: 1830px;
+}
+
+.tableItem {
+    height: 420px;
+    margin-left: 50px;
+    margin-bottom: 40px;
+    width: 1730px;
+    /* table-layout: fixed; */
+}
+
+#show_table::-webkit-scrollbar {
+    display: auto;
+    background-color: rgba(255, 255, 255, 0.3);
+    color: blue;
+    width: 1rem;
+}
+
+#show_table::-webkit-scrollbar-thumb {
+    border-radius: 20px;
+    /* -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3); */
+    background-color: #E7F8FF;
+}
+
+#show_table::-webkit-scrollbar {
+    /*隐藏滚轮*/
+    display: inline;
+}
+
+table {
+    /* background-image: url("../../../Image/bg4.png"); */
+    background-color: rgba(231, 248, 255, 0.2);
+}
+
+.verticalSpitLine {
+    display: inline-block;
+    width: 6px;
+    height: 75%;
+    margin-left: 90px;
+    margin-top: 80px;
+    background: -webkit-linear-gradient(bottom, #4A5461, #406181, #7CA7D1, #406181, #4A5461);
+    /* border: 1px solid #FFF; */
+    border-radius: 5px;
+}
+
+.HorizontalSpitLine {
+    display: inline-block;
+    height: 6px;
+    width: 100%;
+    margin-top: -10px;
+    background: -webkit-linear-gradient(right, #27445D, #6AA2CE, #A6C9D2, #6AA2CE, #27445D);
+    /* border: 1px solid #FFF; */
+    /* border-radius: 5px; */
+}
+
+.headCell {
+    font-size: 60px;
+    color: white;
+    
+    margin-left: 60px;
+    margin-top: 300px;
+}
+
+.contntCell {
+    font-size: 44px;
+    color: white;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    margin-left: 60px;
+    margin-top: 40px;
+}
+
+.scoreCell {
+    font-size: 100px;
+    font-family: MorganBig-Regular;
+    font-weight: 100;
+    color: white;
+    
+    text-align: center;
+    width: 30%;
+}
+
+.starCell {
+    font-size: 50px;
+    color: white;
+    
+}
+
+.noStarCell {
+    font-size: 50px;
+    color: rgba(128, 128, 128, 0.2);
+}
+
+.centerCell {
+    text-align: center;
+}

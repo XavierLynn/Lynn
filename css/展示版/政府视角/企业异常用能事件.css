@@ -1,0 +1,142 @@
+ 
+
+#myTabs {
+    width: 1592px;
+    height: 854px;
+    /* background-color: red; */
+}
+
+#show_table {
+    margin-top: 1px;
+}
+
+.table {
+    width: 100%;
+    height: 240px;
+    /* margin-bottom: 110px; */
+    /* border: 1px solid white; */
+}
+
+.table-header {
+    width: 100%;
+    height: 134px;
+    /* background-color: red; */
+    /* border-bottom: 1px solid white; */
+}
+
+.table-header>tbody {
+    width: 100%;
+    height: 100%;
+    /* border-bottom: 1px solid white; */
+}
+
+.table-header>tbody>tr>td {
+    text-align: center;
+    width: 25%;
+    height: 100%;
+    color: #75D0FF;
+    font-size: 44px;
+}
+
+.table-body {
+    width: 100%;
+    /*height: 50px;*/
+    /* margin-left: 30px; */
+    display: block;
+    overflow-y: scroll;
+    /* margin-bottom: 56px; */
+}
+
+.table-body>tbody,
+.table-body tr {
+    width: 100%;
+    display: inline-block;
+}
+
+.table-body::-webkit-scrollbar {
+    display: auto;
+    /* background-color: aqua;
+    color: blue; */
+    /* width: 1rem; */
+}
+
+.table-body::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    /* -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3); */
+    /* background-color: rgba(255, 255, 255, 0.5); */
+}
+
+.table-body::-webkit-scrollbar {
+    /*隐藏滚轮*/
+    display: none;
+}
+
+.table-body>tbody>tr>td {
+    display: inline-block;
+    width: 25%;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    /* vertical-align:middle; */
+    /* color: white; */
+    font-size: 40px;
+}
+
+.table-body>tbody>tr:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.selectedCell {
+    color: #FF8400;
+}
+
+.selectedFalseCell {
+    color: #FF840000;
+}
+
+.unSelectedCell {
+    color: #83A2C4;
+}
+
+span {
+    display: inline-block;
+    height: 5px;
+    width: 100%;
+    margin: 0px;
+    /* margin-top: -20px; */
+    /* background: red;  */
+    background: -webkit-linear-gradient(right, #00203C, #01AFFD, #00FFF6, #01AFFD, #00203C);
+}
+
+
+/*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/
+
+
+/* ::-webkit-scrollbar
+{
+	width: 16px;
+	height: 16px;
+	background-color: #F5F5F5;
+} */
+
+
+/*定义滚动条轨道 内阴影+圆角*/
+
+
+/* ::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #F5F5F5;
+} */
+
+
+/*定义滑块 内阴影+圆角*/
+
+
+/* ::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #555;
+} */

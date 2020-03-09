@@ -1,0 +1,39 @@
+/* 最外层容器 */
+
+#myTabs {
+    width: 2320px;
+    height: 2730px;
+    background-image: url('../../../Image/能源管理/企业出力表-曲线.png');
+}
+
+
+/* 二级标题容器 */
+
+#subtitle {
+    height: 0px;
+}
+
+
+/* 二级标题 */
+
+.erji_title>a {
+    width: 396px;
+    height: 0px;
+}
+
+
+/* 图表容器 */
+
+#show_charts {
+    width: 0%;
+    height: 0px;
+    /* margin-top: 50px; */
+    /* background-color: red; */
+}
+
+
+/* .nav-tabs {
+    display: none;
+} */
+
+

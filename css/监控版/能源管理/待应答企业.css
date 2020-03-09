@@ -1,0 +1,74 @@
+/* 最外层容器 */
+
+#myTabs {
+    width: 2820px;
+    height: 1284px;
+    position: relative;
+}
+
+.nav {
+    position: absolute;
+    top: 70px;
+}
+
+.nav>li>a {
+    font-size: 72px;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    font-size: 72px;
+}
+
+#show_content {
+    position: absolute;
+    top: 200px;
+    height: 970px;
+    width: 100%;
+    /* background: red; */
+    overflow-x: hidden;
+}
+
+.head {
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 496px;
+    height: 636px;
+    /* background: rgba(0, 0, 255, 1); */
+    background-image: url("../../../Image/test.png");
+    background-size: 100% 100%;
+    border-radius: 20px;
+}
+
+.headBorder {
+    width: 536px;
+    height: 676px;
+    /* background: rgba(255, 0, 0, 0.5); */
+    background-image: url("../../../Image/监控版/能源管理/企业边框.png");
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.contentPanel {
+    height: 970px;
+    /* background: yellow; */
+    width: 536px;
+    display: inline-block;
+    margin-left:120px;
+    position: relative;
+}
+.contentPanel>button {
+    width: 536px;
+    font-size: 40px;
+    border:1px solid transparent;
+    background-color: transparent;
+    outline:none;
+    color:white;
+    cursor:default;
+}
+.headTitle {
+    width: 536px;
+    font-size: 50px;
+    height: 100px;
+    margin-bottom:20px;
+}

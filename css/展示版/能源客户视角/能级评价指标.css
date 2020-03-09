@@ -1,0 +1,70 @@
+#myTabs {
+    width: 1600px;
+    height: 1600px;
+}
+
+#show_table {
+    margin-top: 50px;
+}
+
+.table {
+    width: 1520PX;
+    height: 300px;
+    margin-bottom: 80px;
+    margin-left: 20px;
+    border: 1px solid white;
+}
+
+/*外面得框*/
+
+.table-header {
+    width: 100%;
+    height: 36px;
+    margin-top: 50px;
+}
+
+.table-header>tbody {
+    width: 100%;
+    height: 100%;
+}
+
+.table-header>tbody>tr>td {
+    text-align: center;
+
+    width: 25%;
+    height: 100%;
+    color: rgb(96,199,255);
+    font-size: 60px;
+}
+
+
+
+.table-body {
+    width: 100%;
+    /*height: 50px;*/
+    margin-top: 24px;
+    /* margin-left: 30px; */
+    display: block;
+    overflow-y: scroll;
+    /* margin-bottom: 56px; */
+}
+
+.table-body>tbody,
+.table-body tr {
+    width: 100%;
+    display: inline-block;
+}
+
+.table-body::-webkit-scrollbar {
+    display: none;
+}
+
+.table-body>tbody>tr>td {
+    display: inline-block;
+    width: 25%;
+    margin-top: 0px;
+    /* height: 36px; */
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 35px;
+}

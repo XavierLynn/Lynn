@@ -1,0 +1,90 @@
+#myTabs {
+    width: 954px;
+    height: 2300px;
+    /* background-color: #060D1D; */
+}
+
+.nav>li>a {
+    font-size: 72px;
+}
+
+.nav-tabs>li.active>a,
+.nav-tabs>li.active>a:focus,
+.nav-tabs>li.active>a:hover {
+    font-size: 72px;
+}
+
+#show_charts {
+    width: 100%;
+    height: 1160px;
+    text-align: center;
+    margin-top: 50px;
+    /* background-color: #FF0000; */
+    /* overflow-y: scroll; */
+    /* background-color: antiquewhite; */
+}
+
+#show_charts>button {
+   
+}
+
+
+.cloumn1{   
+    font-family: "庞门正道标题体";
+    /* font-size: 65px; */
+    font-weight: 400;
+    font-style: italic;
+    margin-right: 50px;
+    max-width:500px;
+overflow: hidden;
+text-overflow: ellipsis;
+white-space: nowrap;
+}
+.cloumn2{   
+    max-width:500px;
+overflow: hidden;
+text-overflow: ellipsis;
+white-space: nowrap;
+}
+#show_charts>button:hover {
+    font-size: 66px;
+    background-image: url('../../../../Image/能源客户视角/T_CheckedNormal.png');
+}
+.btnLabel{
+    width: 100%;
+    height: 214px;
+    margin-bottom: 0px;
+    text-align: left;
+    padding-left: 250px;
+    padding-top: 40px;
+    font-size: 56px;
+    color: white;
+    background-color: rgba(250, 0, 0, 0);
+    border: 0px solid rgba(0, 0, 0, 0);
+    background-image: url('../../../../Image/能源客户视角/T_UncheckedNormal.png');
+    outline: none;
+
+}
+.btnLabelSelect {
+    font-size: 66px;
+    background-image: url('../../../../Image/能源客户视角/T_CheckedNormal.png');
+    outline: none;
+}
+
+#show_table::-webkit-scrollbar {
+    display: auto;
+    background-color: #E7F8FF44;
+    color: blue;
+    width: 1rem;
+}
+
+#show_table::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    /* -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3); */
+    background-color: #E7F8FF;
+}
+
+#show_table::-webkit-scrollbar {
+    /*隐藏滚轮*/
+    display: inline;
+}

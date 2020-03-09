@@ -1,0 +1,151 @@
+#myTabs {
+    width: 2400px;
+    height: 360px;
+    /* background-color: red; */
+}
+
+#show_table {
+    margin-top: 1px;
+    height: 210px;
+}
+
+.table {
+    width: 100%;
+    height: 210px;
+    /* margin-bottom: 110px; */
+    /* border: 1px solid white; */
+}
+
+.table-header {
+    width: 100%;
+    height: 220px;
+    margin-top: 30px;
+    /* margin-bottom: -30px;
+    
+    margin-left: -90px; */
+    /* background-color: red; */
+    /* border-bottom: 1px solid white; */
+}
+
+.table-header>tbody {
+    width: 50%;
+    height: 100%;
+}
+
+.table-header>tbody>tr>td {
+    text-align: center;
+    width: 25%;
+    height: 80%;
+    color: #CDE8FF;
+    font-size: 50px;
+    /* //border: 5px solid white; */
+    background-image: url("../../../Image/textFrame.png");
+    background-size: 800px;
+    padding-bottom: 10px;
+}
+
+.table-body {
+    width: 104%;
+    /* height: 50px; */
+    margin-left: -100px;
+    display: block;
+    overflow-y: scroll;
+    /* margin-bottom: 56px; */
+    height: 80%;
+}
+
+.table-body>tbody,
+.table-body tr {
+    width: 100%;
+    display: inline-block;
+}
+
+
+
+
+.table-body::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    height: 0px;
+    /* -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3); */
+    background-color: #CDE8FF
+}
+
+.table-body::-webkit-scrollbar {
+    /*隐藏滚轮*/
+    /* display: none; */
+    width: 24px;
+    height: 0px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.table-body>tbody>tr>td {
+    display: inline-block;
+    width: 25%;
+    height: 106px;
+    line-height: 106px;
+    text-align: left;
+    /* vertical-align:middle; */
+    color: white;
+    font-size: 40px;
+}
+
+.table-body>tbody>tr:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.selectedCell {
+    color: #FF8400;
+}
+
+.unSelectedCell {
+    color: #83A2C4;
+}
+
+
+
+#tagOne {
+    /* background-color:   */
+    background-color: #73CEFE;
+    width: 20px;
+    height: 60px;
+    border-radius: 0px;
+    margin-top: 0px;
+    margin-left: 15px;
+    color: white;
+    font-size: 30px;
+    line-height: 35px;
+    top: 20px;
+}
+
+#tagTwo {
+    /* background-color:   */
+    background-color: #73CEFE;
+    lighting-color: #73CEFE;
+    width: 18px;
+    height: 40px;
+    border-radius: 0px;
+    margin-top: 20px;
+    margin-left: 15px;
+    color: white;
+    font-size: 30px;
+    line-height: 35px;
+    top: 20px;
+}
+
+#tagThree {
+    /* background-color:   */
+    background-color: #73CEFE;
+    width: 16px;
+    height: 20px;
+    border-radius: 0px;
+    margin-top: 40px;
+    margin-left: 15px;
+    color: white;
+    font-size: 30px;
+    line-height: 35px;
+    top: 20px;
+}
+
+
+
+

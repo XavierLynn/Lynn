@@ -1,0 +1,397 @@
+* {
+    padding: 0vw;
+    margin: 0vw;
+    font-family: 'YaHei';
+}
+
+body {
+    position: relative;
+    background-image: url("../../Image/bg.png");
+    background-size: cover;
+}
+
+#regionDiv {
+    position: absolute;
+    top: 0.78vw;
+    left: 2.08vw;
+    width: 15.62vw;
+    height: 1.56vw;
+}
+
+#controlDiv {
+    position: absolute;
+    top: 0.52vw;
+    left: 76.3vw;
+    width: 10.02vw;
+    height: 2.08vw;
+}
+.controlDiv_Btn_Back {
+    border-width: 0vw;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    margin-right: 0.52vw;
+    font-size:0.83vw;
+    background-image: url("../../Image/控制版/刷新.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1.47vw 1.47vw;
+    width:4.17vw;
+    height:1.77vw;
+    background-color:rgba(0, 0, 0, 0.35);
+    border-radius: 0.32vw;
+}
+.controlDiv_Btn_Refsh {
+    border-width: 0vw;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    font-size:0.83vw;
+    background-image: url("../../Image/控制版/刷新.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1.47vw 1.47vw;
+    width:4.17vw;
+    height:1.77vw;
+    background-color:rgba(0, 0, 0, 0.35);
+    border-radius: 0.32vw;
+}
+#tableDiv {
+    position: absolute;
+    top: 3.39vw;
+    left: 2.08vw;
+    width: 83.85vw;
+    height: 3.65vw;
+    /* background-color: rgba(0,0,0,0.35); */
+}
+
+#contentDiv {
+    position: absolute;
+    top: 8.33vw;
+    left: 2.08vw;
+    width: 83.85vw;
+    height: 43.75vw;
+    background-color: rgba(0,0,0,0.35);
+}
+
+#navDiv_title{
+    height:1.77vw;
+    width: 100%;
+    border-style: solid;
+    border-width: 0vw 0vw 0.05vw 0vw;
+    border-color: rgba(255, 255, 255, 0.8);
+}
+
+.navDiv_title_Btn {
+    background-color: transparent;
+    border-width: 0vw;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    margin-right: 4.21vw;
+    font-size:1.04vw;
+}
+
+.navDiv_title_Btn_Select {
+	color: #00f0ff;
+}
+
+
+#navDiv_titleTwo{
+    margin-top: 0.33vw;
+}
+
+.navDiv_titleTwo_Btn {
+    background-color: transparent;
+    border-width: 0vw;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    margin-right: 2.08vw;
+    font-size:0.83vw;
+}
+.navDiv_titleTwo_Btn_Select {
+    color: #00f0ff;
+}
+
+
+
+
+.column1 {
+    display: inline-block;
+}
+
+.column2 {
+    display: inline-block;
+	vertical-align:middle;
+	margin-right:2.6vw;
+}
+.column3 {
+    display: inline-block;
+}
+
+.column4 {
+    display: inline-block;
+	vertical-align:middle;
+	margin-right:2.6vw;
+}
+
+.column5 {
+    background-color: transparent;
+    display: inline-block;
+}
+div.cs-select {
+	display: inline-block;
+	vertical-align: middle;
+	position: relative;
+	text-align: left;
+	/* background: #fff; */
+    color: rgb(255,255,255);
+	z-index: 100;
+	/* width: 100%; */
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+div.cs-select:focus {
+	outline: none; /* For better accessibility add a style for this in your skin */
+}
+
+.cs-select select {
+	display: none;
+}
+
+.cs-select span {
+	display: block;
+	position: relative;
+	cursor: pointer;
+	padding: 1em;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.cs-select > span::after,
+
+.cs-select .cs-selected span::after {
+	position: absolute;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.cs-select > span::after {
+	content: '\25BE';
+	right: 1em;
+}
+
+.cs-select .cs-selected span::after {
+	content: '\2713';
+	margin-left: 1em;
+}
+
+.cs-select.cs-active > span::after {
+	-webkit-transform: translateY(-50%) rotate(180deg);
+	transform: translateY(-50%) rotate(180deg);
+}
+
+/* Options */
+.cs-select .cs-options {
+	position: absolute;
+	overflow: hidden;
+	width: 100%;
+	background: #fff;
+	visibility: hidden;
+}
+
+.cs-select.cs-active .cs-options {
+	visibility: visible;
+}
+
+.cs-select ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+.cs-select ul span {
+	/* padding: 1em; */
+}
+
+.cs-select ul li.cs-focus span {
+	background-color: #ddd;
+}
+
+/* Optgroup and optgroup label */
+.cs-select li.cs-optgroup ul {
+	padding-left: 1em;
+}
+
+.cs-select li.cs-optgroup > span {
+	cursor: default;
+}
+
+@font-face {
+	font-family: 'icomoon';
+	src:url('../../font_family/icomoon/icomoon.eot?-rdnm34');
+	src:url('../../font_family/icomoon/icomoon.eot?#iefix-rdnm34') format('embedded-opentype'),
+		url('../../font_family/icomoon/icomoon.woff?-rdnm34') format('woff'),
+		url('../../font_family/icomoon/icomoon.ttf?-rdnm34') format('truetype'),
+		url('../../font_family/icomoon/icomoon.svg?-rdnm34#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+
+/* 下拉标题 */
+div.cs-skin-underline {
+    font-size: 0.83vw;
+    color:rgba(255,255,255,1);
+    margin-right: 0.82vw;
+}
+
+/* @media screen and (max-width: 30em) {
+	div.cs-skin-underline { font-size: 1.2em; }
+} */
+
+.cs-skin-underline > span {
+	padding:0em 0em 0em 0em;
+	border-bottom: 0vw solid #FFF;
+	border-color: inherit;
+	font-weight: normal;
+}
+
+.cs-skin-underline > span::after {
+	font-family: 'icomoon';
+	content: ' ';
+	right: 0.25em;
+	-webkit-transform: translate3d(0,-50%,0) rotate3d(0,0,1,45deg);
+	transform: translate3d(0,-50%,0) rotate3d(0,0,1,45deg);
+	-webkit-transition: -webkit-transform 0.5s;
+	transition: transform 0.5s;
+}
+
+.cs-skin-underline.cs-active > span::after {
+	-webkit-transform: translate3d(0,-50%,0) rotate3d(0,0,1,270deg);
+	transform: translate3d(0,-50%,0) rotate3d(0,0,1,270deg);
+}
+
+/* 下拉选项背景 */
+.cs-skin-underline .cs-options {
+    margin-top:0.52vw;
+	background-color:rgba(0,0,0,0.8);
+	opacity: 0;
+	-webkit-transition: opacity 0.3s 0.4s, visibility 0s 0.7s;
+	transition: opacity 0.3s 0.4s, visibility 0s 0.7s;
+}
+
+.cs-skin-underline.cs-active .cs-options {
+	opacity: 1;
+	-webkit-transition: opacity 0.3s;
+	transition: opacity 0.3s;
+}
+/* 下拉选项 */
+.cs-skin-underline ul span {
+	position: relative;
+	text-transform: uppercase;
+	font-size: 80%;
+	font-weight:normal;
+	letter-spacing: 0.05vw;
+    padding:0em;
+    margin: 0.25vw 0vw;
+    margin-left:0.25vw;
+    color: rgba(255, 255, 255,1);
+    /* background-color: red; */
+    
+	opacity: 0;
+	-webkit-transform: translate3d(100%,0,0);
+	transform: translate3d(100%,0,0);
+	-webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+	transition: opacity 0.3s, transform 0.3s;
+}
+
+.cs-select ul span::after {
+	content: '';
+	opacity: 0;
+}
+
+.cs-select .cs-selected span::after {
+	font-family: 'icomoon';
+	content: ' ';
+	opacity: 1;
+	-webkit-transition: opacity 0.3s 0.7s;
+	transition: opacity 0.3s 0.7s;
+}
+
+.cs-skin-underline ul span::before {
+	content: '';
+	position: absolute;
+	bottom: 0.26vw;
+	left: 0;
+	height: 0.16vw;
+	width: 100%;
+	/* background-color: #fff; */
+	-webkit-transform: translate3d(200%,0,0);
+	transform: translate3d(200%,0,0);
+	-webkit-transition: -webkit-transform 0.3s;
+	transition: transform 0.3s;
+}
+
+.cs-skin-underline.cs-active ul span,
+.cs-skin-underline.cs-active ul span::before {
+	opacity: 1;
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+
+.cs-skin-underline li:nth-child(5) span,
+.cs-skin-underline li:nth-child(5) span::before,
+.cs-skin-underline.cs-active li:first-child span,
+.cs-skin-underline.cs-active li:first-child span::before {
+	-webkit-transition-delay: 0s;
+	transition-delay: 0s;
+}
+
+.cs-skin-underline li:nth-child(4) span,
+.cs-skin-underline li:nth-child(4) span::before,
+.cs-skin-underline.cs-active li:nth-child(2) span,
+.cs-skin-underline.cs-active li:nth-child(2) span::before {
+	-webkit-transition-delay: 0.05s;
+	transition-delay: 0.05s;
+}
+
+.cs-skin-underline li:nth-child(3) span,
+.cs-skin-underline li:nth-child(3) span::before {
+	-webkit-transition-delay: 0.1s;
+	transition-delay: 0.1s;
+}
+
+.cs-skin-underline li:nth-child(2) span,
+.cs-skin-underline li:nth-child(2) span::before,
+.cs-skin-underline.cs-active li:nth-child(4) span,
+.cs-skin-underline.cs-active li:nth-child(4) span::before {
+	-webkit-transition-delay: 0.15s;
+	transition-delay: 0.15s;
+}
+
+.cs-skin-underline li:first-child span,
+.cs-skin-underline li:first-child span::before,
+.cs-skin-underline.cs-active li:nth-child(5) span,
+.cs-skin-underline.cs-active li:nth-child(5) span::before {
+	-webkit-transition-delay: 0.2s;
+	transition-delay: 0.2s;
+} /* more items require more delay declarations */
+
+.cs-skin-underline .cs-options li span:hover,
+.cs-skin-underline .cs-options li.cs-focus span,
+.cs-skin-underline li.cs-selected span {
+	background: transparent;
+}

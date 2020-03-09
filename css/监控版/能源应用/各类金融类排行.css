@@ -1,0 +1,140 @@
+#myTabs {
+    width: 3590px;
+    height: 2000px;
+    /* background-color: #060D1D; */
+    position: relative;
+}
+
+.nav {
+    /* margin-top: 80px; */
+    position: absolute;
+    top: 80px;
+}
+
+
+/* 一级标题 */
+
+.nav>li>a {
+    font-size: 72px;
+}
+
+
+/* 一级标题点击 */
+
+.nav-tabs>li.active>a,
+.nav-tabs>li.active>a:focus,
+.nav-tabs>li.active>a:hover {
+    font-size: 72px;
+}
+
+#show_table {
+    position: absolute;
+    top: 300px;
+    display: block;
+    overflow-y: scroll;
+    height: 1580px;
+    width: 100%;
+}
+
+.tableItem {
+    height: 700px;
+    margin: 80px;
+}
+
+#show_table::-webkit-scrollbar {
+    display: auto;
+    background-color: #E7F8FF44;
+    border-radius: 20px;
+    color: blue;
+    width: 1rem;
+}
+
+#show_table::-webkit-scrollbar-thumb {
+    border-radius: 20px;
+    /* -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3); */
+    background-color: #E7F8FF;
+}
+
+#show_table::-webkit-scrollbar {
+    /*隐藏滚轮*/
+    display: inline;
+}
+
+table {
+    background-image: url("../../../Image/监控版/能源应用/BG3.png");
+    /* border: 2px solid white; */
+    background-size: 100% 100%;
+    /* background-color: #418dff4F; */
+}
+
+.head {
+    width: 360px;
+    height: 360px;
+    border-radius: 40px;
+    border-color: #418dff;
+    border-width: 2px;
+    border-style: solid;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.headPanel {
+    /* background-color: #FF00007F; */
+}
+
+.tipPanel {
+    vertical-align: top;
+    text-align: right;
+}
+
+.tip {
+    display: inline-block;
+    color: #070c14;
+    background-color: #45c3f9;
+    font-family: MorganBig-Regular;
+    font-weight: 100;
+    font-size: 72px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.navDiv {
+    position: absolute;
+    right: 10px;
+    top: 186px;
+}
+
+button {
+    width: 250px;
+    height: 90px;
+    margin-right: 40px;
+    font-size: 50px;
+    background-color: transparent;
+    background-image: url('../../../Image/监控版/能源应用/小框未选中.png');
+    background-size: 100% 100%;
+    border: 0px solid;
+    color: white;
+    
+    outline: none;
+}
+
+button:hover {
+    
+    background-image: url('../../../Image/监控版/能源应用/小框选中.png');
+}
+
+.btnSelected {
+    
+    background-image: url('../../../Image/监控版/能源应用/小框选中.png');
+}
+
+.shadowContent {
+    font-Size: 60px;
+    color: #d4e8ff;
+    
+}
+
+.content {
+    font-Size: 50px;
+    color: #d4e8ff;
+}

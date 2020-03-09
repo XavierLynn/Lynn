@@ -1,0 +1,22 @@
+#myTabs {
+    width: 3600px;
+    height: 1860px;
+    /* background-color: #060D1D; */
+    /* background-image: url("../../../../Image/bgimg1.jpg"); */
+}
+
+.nav>li>a {
+    font-size: 72px;
+}
+
+.nav-tabs>li.active>a,
+.nav-tabs>li.active>a:focus,
+.nav-tabs>li.active>a:hover {
+    font-size: 72px;
+}
+
+#show_charts {
+    width: 100%;
+    height: 1620px;
+    /* background-color: antiquewhite; */
+}

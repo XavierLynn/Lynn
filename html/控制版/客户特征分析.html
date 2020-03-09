@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <title>导航</title>
+</head>
+<link rel="stylesheet" type="text/css" href="../../css/控制版/客户特征分析.css">
+<link rel="stylesheet" href="../../css/控制版/style.css">
+
+<script src="../../node_modules/jquery/dist/jquery.min.js"></script>
+<script src="../../node_modules/jquery/dist/selectFx.js"></script>
+<script src="../../node_modules/jquery/dist/classie.js"></script>
+<script src="../../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="../../js/控制版/客户特征分析.js"></script>
+
+<body>
+    <div id="contentDiv_top" class="black default_text">
+        <span class="big_text">标签分类占比</span>
+        <ul id="type">
+            <li class="type"><div class="circle selected_circle"></div><span class="i">基本信息</span></li>
+            <li class="type"><div class="circle"></div><span class="i">客户价值</span></li>
+            <li class="type"><div class="circle"></div><span class="i">交互特征</span></li>
+            <li class="type"><div class="circle"></div><span class="i">能源属性</span></li>
+            <li class="type"><div class="circle"></div><span class="i">用能特征</span></li>
+        </ul>
+    </div>
+    <div id="contentDiv_bottom" class="black default_text">
+        <div id="header">
+            <div id="geo">
+                <div class="geo_white">
+                    <div class="labels text_center">上海市</div>
+                </div>
+                <div class="geo_white">
+                    <div class="labels text_center">浦东区</div>
+                </div>
+                <div class="geo_white">
+                    <div class="labels text_center main_labels">张江科技城</div>
+                </div>
+            </div>
+            <span id="labelRanking" class="default_text text-center">标签调用排行</span>
+            <ul id='ranking'>
+                <li class="label_ranking_info">1.节能潜力高</li>
+                <li class="label_ranking_info">2.节能潜力高</li>
+                <li class="label_ranking_info">3.节能潜力高</li>
+                <li class="label_ranking_info">4.节能潜力高</li>
+                <li class="label_ranking_info">5.节能潜力高</li>
+                <li class="label_ranking_info selected_label_ranking">6.节能潜力高</li>
+                <li class="label_ranking_info">7.节能潜力高</li>
+                <li class="label_ranking_info">8.节能潜力高</li>
+                <li class="label_ranking_info">9.节能潜力高</li>
+                <li class="label_ranking_info">10.节能潜力高</li>
+                <li class="label_ranking_info">11.节能潜力高</li>
+                <li class="label_ranking_info">12.节能潜力高</li>
+                <li class="label_ranking_info">13.节能潜力高</li>
+                <li class="label_ranking_info">14.节能潜力高</li>
+                <li class="label_ranking_info">15.节能潜力高</li>
+                <li class="label_ranking_info">16.节能潜力高</li>
+                <li class="label_ranking_info">17.节能潜力高</li>
+                <li class="label_ranking_info">18.节能潜力高</li>
+                <li class="label_ranking_info">19.节能潜力高</li>
+                <li class="label_ranking_info">20.节能潜力高</li>
+            </ul>
+        </div>
+        <div id='bottom'>
+            <div class="left">
+                <span id="choosePartition">分区选择</span>
+                <ul id="partition">
+                    <li class="partitionList">
+                        <div class="circle"></div>
+                        <span class="i partitionInfo">张江南区</span>
+                        <span class="number">367</span>
+                    </li>
+                    <li class="partitionList">
+                        <div class="circle"></div>
+                        <span class="i partitionInfo">张江北区</span>
+                        <span class="number">367</span>
+                    </li>
+                    <li class="partitionList">
+                        <div class="circle selected_circle"></div>
+                        <span class="i partitionInfo selected_text">张江中区</span>
+                        <span class="number selected_text">367</span>
+                    </li>
+                    <li class="partitionList">
+                        <div class="circle"></div>
+                        <span class="i partitionInfo">康桥工业园区南区</span>
+                        <span class="number">367</span>
+                    </li>
+                    <li class="partitionList">
+                        <div class="circle"></div>
+                        <span class="i partitionInfo">康桥工业园区北区</span>
+                        <span class="number">367</span>
+                    </li>
+                    <li class="partitionList">
+                        <div class="circle"></div>
+                        <span class="i partitionInfo">康桥工业园区东区</span>
+                        <span class="number">367</span>
+                    </li>
+                    <li class="partitionList">
+                        <div class="circle"></div>
+                        <span class="i partitionInfo">上海国际医学园区</span>
+                        <span class="number">367</span>
+                    </li>
+                    <li class="partitionList">
+                        <div class="circle"></div>
+                        <span class="i partitionInfo">规划保留用地</span>
+                        <span class="number">367</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="right">
+                <span id="company">企业列表</span>
+                <div class="search">
+                    <input type="text" id="searchInput" placeholder="输入企业名称" />
+                    <input type="button" id="searchBtn" />
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,74 @@
+#myTabs {
+    width: 1830px;
+    height: 650px;
+    /* background-color: #060D1D; */
+    position: relative;
+}
+
+.nav>li>a {
+    font-size: 72px;
+}
+
+.nav-tabs>li.active>a,
+.nav-tabs>li.active>a:focus,
+.nav-tabs>li.active>a:hover {
+    font-size: 72px;
+}
+
+.nav {
+    position: absolute;
+    top: 30px;
+}
+
+#show_charts {
+    position: absolute;
+    top: 204px;
+    width: 1732px;
+    height: 384px;
+    text-align: center;
+    margin-left: 50px;
+    background-image: url('../../../../Image/能源分析/区域分析/概况背景.png');
+    background-size: 100% 100%;
+    background-color: rgba(255, 0, 0, 0);
+}
+
+#show_charts>button {
+    width: 100%;
+    height: 136px;
+    color: white;
+    background-color: rgba(255, 0, 0, 0);
+    border: 0px solid rgba(0, 0, 0, 0);
+    cursor: default;
+    position: relative;
+    outline: none;
+}
+
+#show_charts>button>label {
+    color: #D6EBFF;
+}
+
+.titleCloumn {
+    color: white;
+    font-size: 40px;
+}
+
+.column1 {
+    position: absolute;
+    top: 77px;
+    left: 90px;
+    font-size: 50px;
+}
+
+.column2 {
+    position: absolute;
+    top: 77px;
+    left: 630px;
+    font-size: 50px;
+}
+
+.column3 {
+    position: absolute;
+    top: 77px;
+    left: 1060px;
+    font-size: 50px;
+}

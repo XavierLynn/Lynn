@@ -1,0 +1,29 @@
+#myTabs {
+    /* background-color: #060D1D; */
+    width: 2320px;
+    height: 60px;
+}
+#show_table{
+    margin-left:170px;
+}
+.tabItem {
+    width: 210px;
+    height: 60px;
+    background-image: url("../../../Image/监控版/能源管理/切换未选中.png");
+    background-color: transparent;
+    border-width: 0px;
+    background-size: 100% 100%;
+    color: white;
+    
+    outline: none;
+}
+
+.tabItem:hover {
+    background-image:  url("../../../Image/监控版/能源管理/切换选中.png");
+       
+}
+
+.tabItemSelect {
+    background-image:  url("../../../Image/监控版/能源管理/切换选中.png");
+       
+}

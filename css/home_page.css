@@ -1,0 +1,12 @@
+body{
+    background-image: url("../Image/bgimg1.jpg");
+}
+.nav >li>a{
+    font-size: 13px;
+    font-weight: bold;
+    color: #C9C9C9;
+}
+#danweimianjinenghao,#dudianzengjiazhi,#wanyuanchanzhizonghehaoneng{
+    width: 650px;
+    height: 500px;
+}

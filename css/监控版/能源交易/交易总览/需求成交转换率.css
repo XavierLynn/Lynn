@@ -1,0 +1,64 @@
+body {
+    /* background-color: #FF0D1D */
+}
+
+#myTabs {
+    width: 1930px;
+    height: 1240px;
+    color: white;
+    
+    /* border: 10px solid blue; */
+    /* background-color: red; */
+}
+
+.title {
+    font-size: 66px;
+}
+
+.erjiTitle {
+    color: rgba(210, 246, 254);
+    font-size: 50px;
+    height: 120px;
+        text-shadow : none;
+    vertical-align: bottom;
+}
+
+.panelCell {
+    min-Width: 655px;
+    height: 100px;
+    padding-right: 40px;
+    padding-bottom: 16px;
+    padding-top: 20px;
+}
+
+.chartCell {
+    background: rgba(255, 255, 255, 0.3);
+    width: 100%;
+    height: 100%;
+    vertical-align: bottom;
+    position: relative;
+}
+
+.barCell {
+    height: 100%;
+    background: -webkit-linear-gradient(left, #65AFFC, #BCE8FE);
+    box-shadow: 0 0 0.2em #73CEFE;
+    position: absolute;
+    bottom: 0px;
+}
+
+.contentCell {
+    font-size: 44px;
+    width: 100px;
+    vertical-align: bottom;
+}
+
+.valueCell {
+    color: rgba(210, 246, 254);
+    font-family: MorganBig-Regular;
+    font-weight: 100;
+    font-size: 70px;
+    line-height: 70px;
+        text-shadow : none;
+    vertical-align: bottom;
+}

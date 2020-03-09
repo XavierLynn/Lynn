@@ -1,0 +1,97 @@
+#myTabs {
+    width: 2700px;
+    height: 500px;
+}
+
+#show_table {
+    margin-top: 0px;
+}
+
+.table {
+    width: 2600PX;
+    height: 260px;
+    margin-top: 50px;
+    margin-left: 50px;
+    /* margin-right: 50px; */
+    /* border: 1px solid white;*/
+}
+
+
+/*外面得框*/
+
+.table-header {
+    width: 100%;
+    margin-left: 0px;
+    font-family: MorganBig-Regular;
+}
+
+.table-header>tbody {
+    width: 100%;
+    height: 100%;
+    /* border-bottom: 1px solid white; */
+}
+
+.table-header>tbody>tr>td {
+    text-align: left;
+    width: 20.5%;
+    height: 100%;
+    color: #00FDAD;
+    font-size: 96px;
+    /* font-family: '黑体'; */
+    font-family: MorganBig-Regular;
+}
+
+.table-body {
+    width: 120%;
+    /*height: 50px;*/
+    margin-top: 0px;
+    margin-left: 0px;
+    display: block;
+    overflow-y: scroll;
+    /* margin-bottom: 56px; */
+}
+
+.table-body>tbody,
+.table-body tr {
+    width: 100%;
+    display: inline-block;
+}
+
+.table-body::-webkit-scrollbar {
+    display: none;
+}
+
+.table-body>tbody>tr>td {
+    display: inline-block;
+    width: 17%;
+    /* height: 36px; */
+    text-align: left;
+    margin-left: 0px;
+    color: #FFFFFF;
+    font-size: 64px;
+    font-family: '黑体';
+}
+
+
+/* 一级标题点击 */
+
+.nav-tabs>li.active>a,
+.nav-tabs>li.active>a:focus,
+.nav-tabs>li.active>a:hover {
+    background-color: transparent;
+    border-color: transparent;
+    /* 一级标题被点击后的字体颜色 */
+    color: #00FDAD/*#CDE8FF*/
+    ;
+    font-size: 120px;
+    top: 14px;
+}
+
+#tag {
+    background-color: #00FDAD;
+    /* background-image: url("../Image/bgimg1.jpg"); */
+    width: 0px;
+    height: 0px;
+    border-radius: 0px;
+    top: 40px;
+}

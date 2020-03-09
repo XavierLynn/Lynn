@@ -1,0 +1,32 @@
+
+
+span{
+    margin-left: 50px;
+    margin-top:-50px;
+   
+    font-size: 58px;
+    color: white;
+}
+
+tr>td{
+    height: 138px;
+}
+
+.leftCell{
+    text-align: left;
+    font-size: 36px;
+    color: white;
+}
+
+.table-body{
+
+    margin-top: 50px;
+}
+
+#image{
+  
+    width:680px;
+    height: 453px;
+    margin-top: -550px;
+    margin-left: 0px;
+}

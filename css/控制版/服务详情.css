@@ -1,0 +1,48 @@
+.inline-block {
+    display: inline-block;
+}
+.panel {
+    box-sizing: border-box;
+    width: 83.85vw;
+    height: 6.77vw;
+    padding-top: 1.04vw;
+    padding-left: 2.08vw;
+    background-color: rgba(0,0,0,0.35);
+    margin-bottom: 1.30vw;
+}
+.big_text {
+    text-align: center;
+    color: #fff;
+    font-size: 0.83vw;
+}
+.small_text {
+    text-align: center;
+    color: #fff;
+    font-size: 0.73vw;
+}
+.selected_text {
+    color: #00eeff;
+}
+.circle {
+    width: 0.52vw;
+    height: 0.52vw;
+    border-radius: 50%;
+    background-color: rgba(255,255,255,0.25);
+    border: 0.052vw rgba(255,255,255,0.25);
+}
+.selected_circle {
+    background-color: rgba(0,238,255,0.2);
+    border: 0.052vw rgba(0,238,255,0.2);
+}
+.pad_left_5 {
+    padding-left: 0.26vw;
+}
+ul {
+    padding-top: 2.03vw;
+    padding-left: 0.79vw;
+}
+li {
+    padding-right: 2.61vw;
+}
+
+/* middle 部分 */

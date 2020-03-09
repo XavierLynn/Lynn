@@ -1,0 +1,95 @@
+﻿body {
+    width: 2000px;
+    height: 760px;
+    font-family: '黑体'
+}
+
+#myTabs {
+    width: 2200px;
+    height: 880px;
+    background-image: url(../../../Image/监控版/状态机/定制服务_Background.png);
+    background-repeat: no-repeat;
+    /* background-color: red; */
+}
+
+.myButton {
+    background: rgba(0,0,0,0);
+    background-origin: border-box;
+    background-image: url(../../../Image/监控版/状态机/T_RectBox_UncheckedNormal.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border: none;
+    outline: none;
+    text-align: center;
+    font-size: 55px;
+    color: rgb(255, 255, 255);
+    
+
+    width: 320px;
+    height: 220px;
+}
+.myButton:hover {
+    
+    background-image: url(../../../Image/监控版/状态机/T_RectBox_UncheckedHovered.png);
+}
+.myButton:active {
+    background-image: url(../../../Image/监控版/状态机/T_RectBox_UncheckedPressed.png);
+}
+
+.checkedButton {
+    background-image: url(../../../Image/监控版/状态机/T_RectBox_CheckedNormal.png);
+}
+
+.checkedButton:hover {
+    background-image: url(../../../Image/监控版/状态机/T_RectBox_CheckedHovered.png);
+}
+
+.checkedButton:active {
+    background-image: url(../../../Image/监控版/状态机/T_RectBox_CheckedPressed.png);
+}
+
+.button_0 {
+    position: absolute;
+    left: 55px;
+    top: 445px;
+}
+
+.button_1 {
+    position: absolute;
+    left: 490px;
+    top: 200px;
+    width: 400px;
+}
+
+.button_2 {
+    position: absolute;
+    top: 200px;
+    width: 490px;
+    left: 1100px;
+}
+
+.button_3 {
+    position: absolute;
+    left: 1850px;
+    top: 200px;
+}
+
+.button_4 {
+    position: absolute;
+    left: 490px;
+    top: 680px;
+    width: 400px;
+}
+.button_5 {
+    position: absolute;
+    left: 1110px;
+    top: 680px;
+    width: 450px;
+}
+.button_6 {
+    position: absolute;
+    left: 1800px;
+    top: 680px;
+    width: 400px;
+    /* height: 320px; */
+}

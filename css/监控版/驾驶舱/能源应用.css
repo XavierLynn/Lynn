@@ -1,0 +1,70 @@
+ 
+
+#myTabs {
+    width: 2000px;
+    height: 560px;
+    /* background-color: red; */
+}
+
+#show_table {
+    /* margin-left: 92px; */
+    width: 1948px;
+    height: 560px;
+    /* background-color: red; */
+    /* background-image: url("../../../Image/监控版/驾驶舱/接入服务.png"); */
+}
+
+.number {
+    width: 96px;
+    height: 123px;
+    margin-left: -27px;
+    margin-bottom: 41px;
+}
+
+.number1 {
+    width: 96px;
+    height: 123px;
+    margin-left: -27px;
+    margin-bottom: 9px;
+}
+
+.label {
+    font-size: 46px;
+    margin-left: 160px;
+    color: white;
+    
+    vertical-align: top;
+}
+
+.title {
+    display: block;
+    margin-top: 0px;
+    font-size: 46px;
+    color: white;
+    
+    text-align: center;
+}
+
+.panelDiv {
+    width: 974px;
+}
+
+.nav {
+    display: none;
+}
+
+.mainTd {
+    width: 974px;
+    height: 280px;
+    line-height: 280px;
+}
+
+.titleDiv {
+    padding-top: 90px;
+    height: 280px;
+}
+
+.numberDiv {
+    display: inline;
+    margin-right: 90px;
+}

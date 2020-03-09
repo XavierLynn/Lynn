@@ -1,0 +1,372 @@
+#myTabs {
+    width: 1950px;
+    height: 400px;
+    /* background-color: black; */
+    position: relative;
+    /* background-color: red; */
+}
+#bor{
+    position: absolute;
+    top: 33px;
+    left: 40px; 
+    height: 400px;
+}
+.column0 {
+    /* background-color: #7dd; */
+    margin-left: 40px;
+	display: inline-block;
+	height: 120px;
+	width:120px;
+	vertical-align:middle;
+    /* width: 546px;
+    height: 200px; */
+    /* position: absolute;
+    top: 48px;
+    left: 80px; */
+}
+.column1 {
+    /* background-color: #7dd; */
+    margin-left: 40px;
+    display: inline-block;
+    /* width: 546px;
+    height: 200px; */
+    /* position: absolute;
+    top: 48px;
+    left: 80px; */
+}
+
+.column2 {
+    display: inline-block;
+	width: 180px;
+	vertical-align:middle;
+    /* position: absolute;
+    top: 48px;
+    left: 700px; */
+}
+.column2>img{
+	height: 35px;
+	object-fit:contain;
+	object-position:left 0px bottom 0px;
+}
+.column4>img{
+	height: 30px;
+	object-fit:contain;
+	object-position:left 0px bottom 0px;
+}
+.column3 {
+    /* background-color: #7dd; */
+    display: inline-block;
+    /* width: 720px; */
+    /* position: absolute;
+    top: 48px;
+    left: 1150px; */
+}
+
+#cmbTwo {
+    background-color: transparent;
+    font-size: 90px;
+    border: 0px solid;
+    color: rgb(90, 203, 239);
+    outline: none;
+    width: 430px;
+    height: 110px;
+     /*取消默认箭头开始*/
+     appearance:none;
+     -moz-appearance:none;
+     -webkit-appearance:none;
+     /*取消默认箭头结束*/
+     background: url(../../Image/triangle-right.png);
+     background-repeat:no-repeat;
+     background-position:100% 50%;
+     background-size: 100px,100px;
+}
+
+#cmbTwo>option {
+    font-size: 60px;
+    background-color: transparent;
+
+}
+
+.column4 {
+    display: inline-block;
+    width: 180px;
+	vertical-align:middle;
+    /* position: absolute;
+    top: 48px;
+    left: 1980px; */
+}
+
+.column5 {
+    background-color: transparent;
+    display: inline-block;
+    /* width: 1100px;
+    height: 200px; */
+    /* position: absolute;
+    top: 48px;
+    left: 2430px; */
+}
+/* #cmb1{
+	width: 720px;
+}
+#cmb2{
+	width: 1100px;
+} */
+/* Default custom select styles */
+div.cs-select {
+	display: inline-block;
+	vertical-align: middle;
+	position: relative;
+	text-align: left;
+	/* background: #fff; */
+    color: rgb(90, 203, 239);
+	z-index: 100;
+	/* width: 100%; */
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+div.cs-select:focus {
+	outline: none; /* For better accessibility add a style for this in your skin */
+}
+
+.cs-select select {
+	display: none;
+}
+
+.cs-select span {
+	display: block;
+	position: relative;
+	cursor: pointer;
+	padding: 1em;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+/* Placeholder and selected option */
+.cs-select > span {
+    /* padding-right: 3em; */
+    /* background-color: blue; */
+    /* height:50px; */
+}
+
+.cs-select > span::after,
+.cs-select .cs-selected span::after {
+	speak: none;
+	position: absolute;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.cs-select > span::after {
+	content: '\25BE';
+	right: 1em;
+}
+
+.cs-select .cs-selected span::after {
+	content: '\2713';
+	margin-left: 1em;
+}
+
+.cs-select.cs-active > span::after {
+	-webkit-transform: translateY(-50%) rotate(180deg);
+	transform: translateY(-50%) rotate(180deg);
+}
+
+/* Options */
+.cs-select .cs-options {
+	position: absolute;
+	overflow: hidden;
+	width: 100%;
+	background: #fff;
+	visibility: hidden;
+}
+
+.cs-select.cs-active .cs-options {
+	visibility: visible;
+}
+
+.cs-select ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+.cs-select ul span {
+	/* padding: 1em; */
+}
+
+.cs-select ul li.cs-focus span {
+	background-color: #ddd;
+}
+
+/* Optgroup and optgroup label */
+.cs-select li.cs-optgroup ul {
+	padding-left: 1em;
+}
+
+.cs-select li.cs-optgroup > span {
+	cursor: default;
+}
+
+@font-face {
+	font-family: 'icomoon';
+	src:url('../../font_family/icomoon/icomoon.eot?-rdnm34');
+	src:url('../../font_family/icomoon/icomoon.eot?#iefix-rdnm34') format('embedded-opentype'),
+		url('../../font_family/icomoon/icomoon.woff?-rdnm34') format('woff'),
+		url('../../font_family/icomoon/icomoon.ttf?-rdnm34') format('truetype'),
+		url('../../font_family/icomoon/icomoon.svg?-rdnm34#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+div.cs-skin-underline {
+	/* background: red; */
+    /* height: 120px; */
+    /* font-size: 1.8em; */
+    font-size: 90px;
+	/* max-width: 400px; */
+}
+
+@media screen and (max-width: 30em) {
+	div.cs-skin-underline { font-size: 1.2em; }
+}
+
+.cs-skin-underline > span {
+	padding:0em 50px 0em 0em;
+	border-bottom: 0px solid #FFF;
+	border-color: inherit;
+	font-weight: normal;
+}
+
+.cs-skin-underline > span::after {
+	font-family: 'icomoon';
+	content: ' ';
+	right: 0.25em;
+	-webkit-transform: translate3d(0,-50%,0) rotate3d(0,0,1,45deg);
+	transform: translate3d(0,-50%,0) rotate3d(0,0,1,45deg);
+	-webkit-transition: -webkit-transform 0.5s;
+	transition: transform 0.5s;
+}
+
+.cs-skin-underline.cs-active > span::after {
+	-webkit-transform: translate3d(0,-50%,0) rotate3d(0,0,1,270deg);
+	transform: translate3d(0,-50%,0) rotate3d(0,0,1,270deg);
+}
+
+.cs-skin-underline .cs-options {
+	margin-top:24px;
+	background-color:rgba(0,0,0,0.4);
+	opacity: 0;
+	-webkit-transition: opacity 0.3s 0.4s, visibility 0s 0.7s;
+	transition: opacity 0.3s 0.4s, visibility 0s 0.7s;
+}
+
+.cs-skin-underline.cs-active .cs-options {
+	opacity: 1;
+	-webkit-transition: opacity 0.3s;
+	transition: opacity 0.3s;
+}
+
+.cs-skin-underline ul span {
+	position: relative;
+	text-transform: uppercase;
+	font-size: 80%;
+	font-weight:normal;
+	letter-spacing: 1px;
+    padding:0em 50px 0em 0em;
+    color: rgba(255, 255, 255,0.5);
+    /* background-color: red; */
+    
+	opacity: 0;
+	-webkit-transform: translate3d(100%,0,0);
+	transform: translate3d(100%,0,0);
+	-webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+	transition: opacity 0.3s, transform 0.3s;
+}
+
+.cs-select ul span::after {
+	content: '';
+	opacity: 0;
+}
+
+.cs-select .cs-selected span::after {
+	font-family: 'icomoon';
+	content: ' ';
+	opacity: 1;
+	-webkit-transition: opacity 0.3s 0.7s;
+	transition: opacity 0.3s 0.7s;
+}
+
+.cs-skin-underline ul span::before {
+	content: '';
+	position: absolute;
+	bottom: 5px;
+	left: 0;
+	height: 3px;
+	width: 100%;
+	/* background-color: #fff; */
+	-webkit-transform: translate3d(200%,0,0);
+	transform: translate3d(200%,0,0);
+	-webkit-transition: -webkit-transform 0.3s;
+	transition: transform 0.3s;
+}
+
+.cs-skin-underline.cs-active ul span,
+.cs-skin-underline.cs-active ul span::before {
+	opacity: 1;
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+
+.cs-skin-underline li:nth-child(5) span,
+.cs-skin-underline li:nth-child(5) span::before,
+.cs-skin-underline.cs-active li:first-child span,
+.cs-skin-underline.cs-active li:first-child span::before {
+	-webkit-transition-delay: 0s;
+	transition-delay: 0s;
+}
+
+.cs-skin-underline li:nth-child(4) span,
+.cs-skin-underline li:nth-child(4) span::before,
+.cs-skin-underline.cs-active li:nth-child(2) span,
+.cs-skin-underline.cs-active li:nth-child(2) span::before {
+	-webkit-transition-delay: 0.05s;
+	transition-delay: 0.05s;
+}
+
+.cs-skin-underline li:nth-child(3) span,
+.cs-skin-underline li:nth-child(3) span::before {
+	-webkit-transition-delay: 0.1s;
+	transition-delay: 0.1s;
+}
+
+.cs-skin-underline li:nth-child(2) span,
+.cs-skin-underline li:nth-child(2) span::before,
+.cs-skin-underline.cs-active li:nth-child(4) span,
+.cs-skin-underline.cs-active li:nth-child(4) span::before {
+	-webkit-transition-delay: 0.15s;
+	transition-delay: 0.15s;
+}
+
+.cs-skin-underline li:first-child span,
+.cs-skin-underline li:first-child span::before,
+.cs-skin-underline.cs-active li:nth-child(5) span,
+.cs-skin-underline.cs-active li:nth-child(5) span::before {
+	-webkit-transition-delay: 0.2s;
+	transition-delay: 0.2s;
+} /* more items require more delay declarations */
+
+.cs-skin-underline .cs-options li span:hover,
+.cs-skin-underline .cs-options li.cs-focus span,
+.cs-skin-underline li.cs-selected span {
+	color: #FFF;
+	background: transparent;
+}

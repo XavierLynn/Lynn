@@ -1,0 +1,41 @@
+body{
+     background-image: url("../Image/bgimg1.jpg");
+ }
+#tag{
+    background-color: yellow;
+    /*background-image: url("");*/
+    width: 15px;
+    height: 40px;
+    border-radius: 2px;
+}
+#show_charts{
+    width: 650px;
+    height: 500px;
+}
+.nav >li>a{
+    font-size: 13px;
+    font-weight: bold;
+    color: #C9C9C9;
+}
+.nav>li:hover, .nav>li>a:hover{
+    background-color: transparent;
+    border-color: transparent;
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    background-color: transparent;
+    border-color: transparent;
+    /* 一级标题被点击后的字体颜色 */
+    color: red;
+}
+.erji_title>a{
+    /* 二级标题的字体颜色 */
+    color: #87CEFF;
+}
+.erji_title>a:hover{
+    /* 鼠标放在二级标题的字体颜色 */
+    color: white;
+}
+.erji_title>a:focus{
+    /* 鼠标点击后二级标题的字体颜色 */
+    color: red;
+}

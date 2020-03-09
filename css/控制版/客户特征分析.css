@@ -1,0 +1,188 @@
+ /* width 1920px height 1080px */
+.black {
+    background-color: rgba(0,0,0,0.35);
+}
+.default_text {
+    color: white;
+}
+.text_center {
+    font-family: 'Microsoft YaHei';
+    font-size: 0.625vw;
+    line-height: 0.78vw;
+    text-align: center;
+}
+.left {
+    float: left;
+    width: 44.79%;
+}
+.right {
+    float: right;
+    width: 55.21%;
+}
+#contentDiv_top{
+    box-sizing: border-box;
+    height:6.25vw;
+    width:83.85vw;
+    padding-left: 2.08vw;
+    padding-top: 1.04vw;
+}
+.big_text {
+    text-align: center;
+    color: #fff;
+    font-size: 0.83vw;
+}
+#type {
+    padding-left: 0.78vw;
+    padding-top: 0.52vw;
+}
+.type {
+    display: inline;
+    padding-right: 1.04vw;
+}
+.circle {
+    box-sizing: border-box;
+    display: inline-block;
+    width: 0.52vw;
+    height: 0.52vw;
+    border: rgba(255,255,255,0.25) 0.052vw;
+    border-radius: 50%;
+    background-color: rgba(255,255,255,0.25);
+}
+.selected_circle {
+    border: rgba(0,240,255,0.25) 0.052vw!important;
+    background-color: rgba(0,240,255,0.25)!important;
+}
+.i {
+    padding-left: 0.16vw;
+    font-size: 0.73vw;
+}
+
+#contentDiv_bottom{
+    margin-top: 1.31vw;
+    height: 35.42vw;
+    width: 83.85vw;
+}
+#header {
+    padding-bottom: 1,56vw;
+    border-bottom: 0.052vw solid rgba(255,255,255,0.2);
+}
+#geo {
+    height: 7.29vw;
+    padding-top: 1.04vw;
+    padding-left: 2.08vw;
+}
+.geo_white {
+    display: inline-block;
+    position: relative;
+    width: 4.17vw;
+    height: 4.17vw;
+    background-color: #fff;
+    margin-right: 3vw;
+  
+  
+
+}
+.labels {
+    position: absolute;
+    left: 0;
+    top: 3.39vw;
+    width: 100%;
+    height: 0.78vw;
+    background-color: rgba(0,0,0,0.29);
+}
+.main_labels {
+    background-color: rgba(0,238,255,0.7)!important;
+    color: #6f606f!important;
+}
+#labelRanking {
+    position: relative;
+    left: 2.14vw;
+    font-family: 'Microsoft YaHei';
+    font-size: 0.83vw;
+}
+#ranking {
+    padding-left: 2.86vw;
+    padding-top: 1.56vw;
+    padding-bottom: 1.56vw;
+}
+.label_ranking_info {
+    display: inline-block;
+    width: 6.02vw;
+    height: 0.94vw;
+    border: 1px solid white;
+    border-radius: 0.26vw;
+    margin-right: 2.08vw;
+    margin-bottom: 1.04vw;
+    font-size: 0.73vw;
+    text-align: center;
+    line-height: 0.94vw;
+}
+.selected_label_ranking {
+    color: #00eeff;
+    border-color: #00eeff;
+}
+#bottom {
+    padding-top: 2.08vw;
+}
+#choosePartition {
+    position: relative;
+    left: 2.08vw;
+    font-size: 0.83vw;
+}
+#partition {
+    padding-top: 1.56vw;
+    padding-left: 2.86vw;
+}
+.partitionList {
+    display: inline-block;
+    box-sizing: content-box;
+    width: 13.28vw;
+    padding-right: 3.38vw;
+    padding-bottom: 1.15vw;
+}
+.partitionInfo {
+    display: inline-block;
+    width: 5.21vw;
+    text-align: left !important;
+}
+.selected_text {
+    color: #00eeff;
+}
+.selected_circle {
+    background-color: rgba(0,238,255,0.2);
+    border: 0.052vw rgba(0,238,255,0.2);
+}
+#company {
+    font-size: 0.83vw;
+}
+.search {
+    position: relative;
+    padding-top: 1.56vw;
+    padding-left: 2%;
+    box-sizing: content-box;
+    width: 21.09vw;
+    height: 1.82vw;
+}
+#searchInput {
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255,255,255,0.1);
+    padding-left: 0.26vw;
+    border-radius: 0.26vw;
+}
+::-webkit-input-placeholder { 
+    font-family: "Microsoft YaHei";
+    font-size: 0.73vw;
+    color: rgba(255,255,255,0.5);
+    line-height: 1.82vw;
+}
+#searchBtn {
+    position: absolute;
+    top: 1.69vw;
+    right: 0.26vw;
+    width: 1.56vw;
+    height: 1.56vw;
+    background: white url(../../Image/控制版/search.png) left center no-repeat;
+    background-size: contain;
+}

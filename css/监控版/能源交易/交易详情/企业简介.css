@@ -1,0 +1,97 @@
+
+
+.contains{
+    /* background-color: black; */
+    width: 1800px;
+    height: 1520px;
+    position: absolute;
+}
+.tab{
+    position: inherit;
+    margin-top: 70px;
+    margin-left: -20px;
+    z-index: 1;
+}
+img{
+    width: 80px;
+    height: 80px;
+}
+#myTabs {
+    width: 1700px;
+    height: 1420px;
+    margin:50px;
+    font-family: Microsoft Yahei;
+    display: block;
+    /* border: 10px solid blue; */
+    /* background-color: red; */
+}
+
+
+
+.title {
+    font-size: 72px;
+    color: white;
+        
+}
+
+.content {
+    font-size: 50px;
+    color: #d2f6fe;
+    
+}
+.erjiTitle {
+    height: 192px;
+    width: 940px;
+    vertical-align: bottom;
+    font-size: 60px;
+    color: white;
+        
+}
+.erjiTitle1
+{
+    height: 212px;
+    vertical-align: bottom;
+    font-size: 60px;
+    color: white;
+        
+}
+.stars{
+    font-size: 72px;
+    color: white;
+        
+}
+.star{
+    color: white;
+    
+}
+.nostar{
+    color: rgb(57,68,73);
+        text-shadow : none;
+}
+.erjiTitle2
+{
+    height: 230px;
+    vertical-align: bottom;
+    font-size: 60px;
+    color: white;
+        
+}
+
+.borderContent{
+    vertical-align: top;
+    border: 4px solid white;
+    box-shadow: 0 0 0.2em #73CEFE;
+    margin-top: 60px;
+    height: 284px;
+    padding: 40px;
+    color: #d2f6fe;
+    font-size: 40px;
+    line-height: 70px;
+    /* box-shadow: 0px 0px 10px red inset; */
+}
+
+/*.stars{
+    display: span;
+}
+*/
+

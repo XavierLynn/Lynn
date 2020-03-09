@@ -1,0 +1,43 @@
+#myTabs {
+    /* background-color: #060D1D; */
+    width: 2600px;
+    height: 470px;
+    position: relative;
+}
+
+.nav {
+    /* margin-top: 80px; */
+    position: absolute;
+    top: 50px;
+}
+
+.nav>li>a {
+    font-size: 72px;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    font-size: 72px;
+}
+
+#show_table {
+    position: absolute;
+    top: 180px;
+    left: 50px;
+    margin-right: 50px;
+}
+
+#show_table>button {
+    font-size: 50px;
+    color: #9EDDFF;
+    
+    /* background-image: url('../../../Image/能源分析/异常用能/标签边框.png'); */
+    background-size: 100% 100%;
+    background-color:transparent;
+    margin-right: 36px;
+    margin-bottom: 28px;
+    outline:none;
+    padding:20px 40px;
+    border:1px solid #73CEFE;
+    border-radius: 30px;
+    box-shadow:inset 0 0 0.2em #73CEFE;
+}

@@ -1,0 +1,83 @@
+/* 最外层容器 */
+
+#myTabs {
+    width: 1830px;
+    height: 820px;
+}
+
+
+/* 二级标题容器 */
+
+#subtitle {
+    height: 0px;
+}
+
+
+/* 二级标题 */
+
+.erji_title>a {
+    width: 160px;
+    height: 0px;
+}
+
+
+/* 图表容器 */
+
+#show_charts {
+    width: 100%;
+    height: 674px;
+    top: 0px;
+    /* background-color: rgba(255, 0, 0, 0.13); */
+}
+
+
+/* 一级标题 */
+
+.nav>li>a {
+    font-size: 72px;
+    font-weight: bold;
+    vertical-align: top;
+    color: #ffffff;
+    padding: 0px;
+    margin-left: 30px;
+    margin-top: -5px;
+    top: 0px;
+    
+    
+}
+
+
+/* 一级标题鼠标移入 */
+
+.nav>li:hover,
+.nav>li>a:hover {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+
+/* 一级标题点击 */
+
+.nav-tabs>li.active>a,
+.nav-tabs>li.active>a:focus,
+.nav-tabs>li.active>a:hover {
+    background-color: transparent;
+    border-color: transparent;
+    font-size: 72px;
+    color: #ffffff;
+    top: 0px;
+}
+
+#tag {
+    background-color: rgba(255,0,0,0);
+    /* background-image: url("../Image/bgimg1.jpg"); */
+    width: 20px;
+    height: 35px;
+    border-radius: 0px;
+    margin-top: 3px;
+    color: white;
+    
+    font-size: 50px;
+    line-height: 35px;
+    top: 20px;
+}

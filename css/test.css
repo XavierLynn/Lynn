@@ -1,0 +1,21 @@
+.ac_coupon-wrap {
+    background-color: red;
+    height: 100%;
+    padding-top: 15.16%;
+    position: relative;
+}
+
+.ac_coupon-content {
+    background-color: blue;
+    position: absolute;
+    top: 20%;
+    width: 75vw;
+    height: 75%;
+    background-size: cover;
+}
+
+#map {
+    width: 1000px;
+    height: 1000px;
+    background-color: #f244447a;
+}

@@ -1,0 +1,58 @@
+/* 最外层容器 */
+
+#myTabs {
+    width: 2700px;
+    height: 1200px;
+}
+
+
+/* 二级标题容器 */
+
+#subtitle {
+    height: 120px;
+}
+
+
+/* 二级标题 */
+
+.erji_title>a {
+    width: 160px;
+    height: 110px;
+}
+
+
+/* 图表容器 */
+
+#show_charts {
+    width: 2700px;
+    height: 900px;
+}
+
+#tag {
+    top: 93px;
+}
+
+
+/* 一级标题 */
+
+.nav>li>a {
+    top: 90px;
+}
+
+
+/* 一级标题鼠标移入 */
+
+.nav>li:hover,
+.nav>li>a:hover {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+
+/* 一级标题点击 */
+
+.nav-tabs>li.active>a,
+.nav-tabs>li.active>a:focus,
+.nav-tabs>li.active>a:hover {
+    top: 90px;
+}

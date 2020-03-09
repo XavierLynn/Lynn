@@ -1,0 +1,115 @@
+#myTabs {
+    width: 2000px;
+    height: 1100px;
+    /* background-color: red; */
+}
+
+#show_table {
+    margin-top: 2px;
+}
+
+.table {
+    width: 100%;
+    height: 480px;
+    /* margin-bottom: 110px; */
+    /* border: 1px solid white; */
+}
+
+.table-header {
+    margin-top: 92px;
+    width: 100%;
+    height: 168px;
+    /* background-color: #00FDAD55;
+    border-top: 4px #00FDAD solid;
+    border-bottom: 4px #00FDAD solid; */
+    /* background-color: red; */
+    /* border-bottom: 1px solid white; */
+}
+
+.table-header>tbody {
+    width: 100%;
+    height: 100%;
+    /* border-bottom: 1px solid white; */
+}
+
+.table-header>tbody>tr>td {
+    text-align: center;
+    width: 16.67%;
+    height: 100%;
+    color: #FFF;
+    font-size: 50px;
+}
+
+.customtd1 {
+    border-right: 4px #00FDAD solid;
+}
+
+.customtd2 {
+    border-bottom: 4px #00FDAD solid;
+}
+
+.table-body {
+    width: 100%;
+    /*height: 50px;*/
+    /* margin-left: 30px; */
+    display: block;
+    overflow-y: scroll;
+    /* background-color: #00FDAD55;
+    border-bottom: 4px #00FDAD solid; */
+    /* margin-bottom: 56px; */
+}
+
+.table-body>tbody,
+.table-body tr {
+    width: 100%;
+    display: inline-block;
+}
+
+.table-body::-webkit-scrollbar {
+    display: auto;
+    /* background-color: aqua;
+    color: blue; */
+    /* width: 1rem; */
+}
+
+.table-body::-webkit-scrollbar-thumb {
+    border-radius: 20px;
+    /* -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3); */
+    background-color: rgba(0, 224, 238, 0.3);
+}
+
+.table-body::-webkit-scrollbar {
+    /*隐藏滚轮*/
+    display: inline;
+}
+
+.table-body>tbody>tr>td {
+    display: inline-block;
+    width: 16.66%;
+    height: 112px;
+    line-height: 112px;
+    text-align: center;
+    color: #FFF;
+    font-size: 50px;
+    border-bottom: 2px #00FDAD7A solid;
+}
+
+.table-body>tbody>tr:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.selectedCell {
+    color: #FF8400;
+}
+
+.unSelectedCell {
+    color: #83A2C4;
+}
+
+span {
+    display: inline-block;
+    height: 10px;
+    width: 100%;
+    margin: 0px;
+    background: linear-gradient(to right, #01AFFD00, #01AFFD, #00FFF6, #01AFFD, #01AFFD00);
+}

@@ -1,0 +1,146 @@
+#myTabs {
+    width: 2420px;
+    height: 1370px;
+}
+
+
+/* 二级标题容器 */
+
+#subtitle {
+    height: 0px;
+}
+
+
+/* 图表容器 */
+
+#show_charts {
+    width: 2350px;
+    height: 970px;
+}
+
+
+/* 一级标题 */
+
+.nav>li>a {
+    font-size: 72px;
+    /* font-weight: bold; */
+    vertical-align: top;
+    color: rgb(200, 200, 200);
+    padding: 0px;
+    margin-left: 50px;
+    /* margin-top: -5px; */
+    top: 50px;
+    
+}
+
+
+/* 一级标题鼠标移入 */
+
+.nav>li:hover,
+.nav>li>a:hover {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+
+/* 一级标题点击 */
+
+.nav-tabs>li.active>a,
+.nav-tabs>li.active>a:focus,
+.nav-tabs>li.active>a:hover {
+    background-color: transparent;
+    border-color: transparent;
+    font-size: 72px;
+    color: #CDE8FF;
+    top:37px;
+}
+
+#tag {
+    background-color: rgba(255,0,0,0);
+    /* background-image: url("../Image/bgimg1.jpg"); */
+    width: 0px;
+    height: 35px;
+    border-radius: 0px;
+    margin-top: 3px;
+    color: white;
+    font-size: 50px;
+    line-height: 35px;
+    top: 60px;
+}
+
+
+
+/* 二级标题 */
+
+.erji_title>a {
+    width: 720px;
+    font-size: 60px;
+    /* font-weight: bold; */
+    vertical-align: top;
+    color: #FFFFFF;
+    padding: 0px;
+    margin-left: 0px;
+    margin-right: 70px;
+    margin-top: 100px;
+    top: 0px;
+    text-align: right;
+}
+
+
+/* 二级标题鼠标移入 */
+
+.erji_title>a:hover {
+    color: #FFFFFF;
+}
+
+
+/* 二级标题鼠标点击 */
+
+.erji_title>a:focus {
+    color: #FFFFFF;
+}
+
+#show_labels>button {
+    width: 100%;
+    height: 60px;
+    font-size: 60px;
+    color: white;
+    margin-top: 100px;
+    background-color: rgba(255, 0, 0, 0);
+    border: 0px solid rgba(0, 0, 0, 0);
+    cursor: default;
+    position: relative;
+    outline: none;
+}
+
+#show_labels>button>label {
+    /* color: #D6EBFF; */
+    width: 900px;
+    
+}
+
+.titleCloumn {
+    color: white;
+    height: 60px;
+
+}
+
+.column1 {
+    position: absolute;
+    top: 0px;
+    left: -20px;
+}
+
+.column2 {
+    position: absolute;
+    top: 0px;
+    width: 900px;
+    left:800px;
+}
+
+.column3 {
+    position: absolute;
+    top: 0px;
+    width: 900px;
+    left: 1560px;
+}

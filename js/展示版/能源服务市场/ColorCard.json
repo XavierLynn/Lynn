@@ -1,0 +1,29 @@
+
+{
+ "mainColor" : "rgb(96,199,255)",
+ "mainGraStart" : "rgba(96,199,255,0.3)",
+ "mainGraEnd ": "rgba(96,199,255,1)",
+ "mainUnder" : "rgba(255,255,255,0.25)",
+ "mainGraApl": "rgba(96,199,255,0.7)",
+ "mainHoverStart" : "rgba(124,187,255,0.74)",
+ "mainHoverEnd" : "rgba(124,187,255,0.31)" ,
+ "textColor" : "rgb(255,255,255)",
+ "shadowColor" : "rgba(96,199,255,0.8)",
+ "th1" : "0 0 0.2em rgb(65,141,255),-0 -0 0.2em rgb(65,141,255)",
+ "mainGroup" : {
+    "cylm": {
+        "one": "rgba(96,199,255,0.6)",
+        "two": "rgb(255,255,255)"
+    },
+    "glspcjqs": {
+        "one": ["rgba(255,255,255,0)", "rgba(255,255,255,0.3)", "rgba(255,255,255,1)"],
+        "two": ["rgba(96,199,255,0)", "rgba(96,199,255,0.3)", "rgba(96,199,255,1)"],
+        "three": ["rgba(0,117,255,0)", "rgba(0,117,255,0.3)", "rgba(0,117,255,1)"]
+    },
+    "nxhb": {
+        "one": "rgba(96,199,255,0.4)",
+        "two": "rgba(96,199,255,0)"
+    }
+
+}
+}

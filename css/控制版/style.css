@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+ul {
+    list-style: none;
+}
+.clearfix::before,
+.clearfix::after {
+    display: table;
+    content: "";
+}
+
+.clearfix::after {
+    clear: both;
+}
+input,select {
+    position: relative;
+    outline: none;
+}
+input,select:hover {
+    cursor: pointer;
+}
+li:hover {
+    cursor: pointer !important;
+}

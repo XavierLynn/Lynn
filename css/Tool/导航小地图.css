@@ -1,0 +1,11 @@
+#navMap {
+    width: 900px;
+    height: 900px;
+    /* background-color: red; */
+    /* border: 2px solid #276E99;
+    border-radius: 20px; */
+    background-image:url('../../Image/监控版/客户特征分析/大地图框.png');
+    background-size: 100% 100%;
+    /* left: 0px; */
+    z-index: 10;
+}

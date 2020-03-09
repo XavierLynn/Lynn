@@ -1,0 +1,49 @@
+{
+    "mainColor": "rgb(96,199,255)",
+    "mainGraStart": "rgba(96,199,255,0.3)",
+    "mainGraApl": "rgba(96,199,255,0.7)",
+    "mainGraEnd": "rgba(96,199,255,1)",
+    "mainUnder": "rgba(255,255,255,0.25)",
+    "mainHoverStart": "rgba(124,187,255,0.74)",
+    "mainHoverEnd": "rgba(124,187,255,0.31)",
+    "textColor": "rgb(255,255,255)",
+    "mainGroup": {
+        "ngxdb": {
+            "one": [
+                "rgba(96,199,255,0.4)",
+                "rgba(96,199,255,0)",
+                "rgba(96,199,255,1)"
+            ],
+            "two": [
+                "rgba(60,195,239,0.4)",
+                "rgba(60,195,239,0)",
+                "rgba(60,195,239,1)"
+            ]
+        },
+        "qynyxfbl": {
+            "one": "#83C6E1",
+            "two": "#005C99",
+            "three": "#52B5DF",
+            "four": "#0072C5",
+            "five": "#93C6E1",
+            "six": "#003D6A",
+            "seven": "#61AFDD",
+            "eight": "#005BBE"
+        },
+        "table": {
+            "header": "rgba(96,199,255,1)",
+            "body": "rgba(96,199,255,0.6)"
+        },
+        "ycynyy": {
+            "one": "#61adff",
+            "two": "#00d6e3",
+            "three": "#ff8040",
+            "four": "#f9f900"
+        },
+        "tztb": {
+            "one": "#ffffff",
+            "two": "rgb(96,199,255)"
+        }
+    }
+}
+
